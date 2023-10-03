@@ -20,7 +20,7 @@ jobs:
           server: ${{ secrets.ftp_host }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /galaxy/galaxy-seven
+          server-dir: /galaxy/galaxy-seven/
       - name: 💻 SSH to Server Terminal
         uses: appleboy/ssh-action@v1.0.0
         with:
@@ -30,5 +30,5 @@ jobs:
           port: ${{ secrets.PORT }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            cd /galaxy/galaxy-seven
+            cd /galaxy/galaxy-seven/
             composer update --prefer-dist --no-progress
