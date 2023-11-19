@@ -113,7 +113,7 @@
                 </div>
                 <div class="col-lg-6 col-sm-8">
                     <div class="bg-white p-5">
-                        <h2 class="section-title">Tentang Galaxyyy</h2>
+                        <h2 class="section-title">Tentang Galaxy</h2>
                         <p>Galaxy merupakan sebuah event tahunan yang diselenggarakan oleh MA istimewa Amanatul Ummah
                             layanan SKS. Kegiatan Galaxy ini sangat prospektif untuk dikembangkan dalam upaya untuk
                             meningkatkan kualitas generasi muda untuk menghadapi era millennial mengingat bangsa
