@@ -20,7 +20,8 @@
                     <ul class="list-inline">
                         <li class="list-inline-item"><a
                                 class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
-                                href="http://www.mai-au.sch.id/">MA Istimewa Amanatul Ummah</a></li>
+                                href="http://www.mai-au.sch.id/">MA Istimewa Amanatul Ummah Galaxy</a></li>
+                                {{-- perubahan hari ini --}}
                         <!--<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="login/">login</a></li>-->
                     </ul>
                 </div>
