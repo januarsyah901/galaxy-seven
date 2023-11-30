@@ -1,32 +1,32 @@
 
-<!--<!DOCTYPE html>-->
-<!--<html lang="zxx">-->
-<!--  <head>-->
-<!--  <style>-->
-<!--    .list{-->
-<!--      list-style-type: unset;-->
-<!--      list-style-type: disc;-->
-<!--      padding-left: 20px;-->
-<!--      margin-bottom: 10px;-->
-<!--    }-->
-<!--    li{-->
-<!--      padding: 5px;-->
-<!--    }-->
-<!--    .head{-->
-<!--      /* border-bottom: 3px solid darkgray; */ -->
-<!--      color: lightslategrey;-->
-<!--      font-family: cursive;-->
-<!--      font-size: 20px;-->
-<!--    }-->
-    
-<!--    .subhead{-->
-<!--        font-weight: 500;-->
-<!--        color: lightslategrey;-->
-<!--        font-family: unset;-->
-<!--    }-->
-<!--  </style>-->
-<!--  </head>-->
-<!--  <body>-->
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+  <style>
+    /*.list{*/
+    /*  list-style-type: unset;*/
+    /*  list-style-type: disc;*/
+    /*  padding-left: 20px;*/
+    /*  margin-bottom: 10px;*/
+    /*}*/
+    /*li{*/
+    /*  padding: 5px;*/
+    /*}*/
+    /*.head{*/
+    /*  !* border-bottom: 3px solid darkgray; *!*/
+    /*  color: lightslategrey;*/
+    /*  font-family: cursive;*/
+    /*  font-size: 20px;*/
+    /*}*/
+
+    /*.subhead{*/
+    /*    font-weight: 500;*/
+    /*    color: lightslategrey;*/
+    /*    font-family: unset;*/
+    /*}*/
+  </style>
+  </head>
+  <body>
       <h2 class="section-title">OLIMPIADE MIPA, PAI, IPS Dan Bahasa Inggris</h2>
       <h4 class="head">Pendaftaran</h4>
       <table cellpadding="5">
@@ -34,13 +34,7 @@
             <td>-</td>
             <td>Gelombang I </td>
             <td style="text-align:right;">:</td>
-            <td>1 desember 2022 - 20 desember 2022</td>
-          </tr>
-          <tr>
-            <td>-</td>
-            <td>Gelombang II</td>
-            <td style="text-align:right;">:</td>
-            <td>5 januari 2023 - 26 januari 2023</td>
+            <td>28 Desember 2023 - 10 Januari 2024</td>
           </tr>
         </table>
   <h4 class="head">Pelaksanaan</h4>
@@ -63,7 +57,7 @@
             <td style="text-align:right;">:</td>
             <td>5 maret 2023</td>
           </tr>
-          
+
         </table>
     <h4 class="head">Persyaratan</h4>
       <ol start="1" class="list">
@@ -86,11 +80,11 @@ keikutsertaannya oleh panitia
         <li>Mengupload twibbon dengan link :  <a href="http://twb.nz/olimpiadegalaxy">http://twb.nz/olimpiadegalaxy</a></li>
         <li>setelah mengisi form pendaftaran, kamu akan diberikan link grup WhatsApp</li>
         <li>apabila peserta tidak bisa bergabung pada link yang telah di sediakan, peserta dapat mengkontak panitia</li>
-        
+
         <!--Misalkan kode yang kamu dapatkan adalah 021. Maka, untuk mempermudah pelacakan data, uang pendaftaran yang kamu bayarkan menjadi Rp 40.021,00</li>-->
         <!--<li>Setelah melakukan pembayaran, harap lakukan konfirmasi pembayaran melalui contact person yang tercantum pada website.</li>-->
       </ol>
-     
+
     <h4 class="head">Biaya Pendaftaran</h4>
       <table cellpadding="5">
         <tr>
@@ -103,7 +97,7 @@ keikutsertaannya oleh panitia
           <td>b.</td>
           <td>Babak Quarter Final</td>
           <td style="text-align:right;">:</td>
-          <td>Rp45.000,00,-</td>
+          <td>Rp50.000,00,-</td>
         </tr>
       </table>
       <br>
@@ -119,87 +113,89 @@ keikutsertaannya oleh panitia
             <td>a.</td>
             <td>Juara I</td>
             <td style="text-align:right;">:</td>
-            <td>Rp. 1.300.000 + Golden Ticket PSB + Sertifikat + trophy</td>
+            <td>Rp. 2.000.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
             <td>b.</td>
             <td>Juara II</td>
             <td style="text-align:right;">:</td>
-            <td>Rp. 1.000.000 + Sertifikat + trophy</td>
+              <td>Rp. 1.500.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
             <td>c.</td>
             <td>Juara III</td>
             <td style="text-align:right;">:</td>
-            <td>Rp. 700.000 + Sertifikat + trophy</td>
+            <td>Rp. 1.000.000 + Sertifikat + trophy</td>
           </tr>
         </table>
       <br>
       <h6 class="subhead">Olimpiade Pengetahuan Agama Islam (PAI) </h6>
       <table cellpadding="5">
-                     <tr>
-            <td>a.</td>
-            <td>Juara I</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.300.000 + Golden Ticket PSB + Sertifikat + trophy</td>
+          <tr>
+              <td>a.</td>
+              <td>Juara I</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 2.000.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>b.</td>
-            <td>Juara II</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.000.000 + Sertifikat + trophy</td>
+              <td>b.</td>
+              <td>Juara II</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.500.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>c.</td>
-            <td>Juara III</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 700.000 + Sertifikat + trophy</td>
+              <td>c.</td>
+              <td>Juara III</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.000.000 + Sertifikat + trophy</td>
           </tr>
         </table>
         <br>
       <h6 class="subhead">Olimpiade Ilmu Pengetahuan Sosial (IPS) </h6>
       <table cellpadding="5">
-                    <tr>
-            <td>a.</td>
-            <td>Juara I</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.300.000 + Golden Ticket PSB + Sertifikat + trophy</td>
+          <tr>
+              <td>a.</td>
+              <td>Juara I</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 2.000.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>b.</td>
-            <td>Juara II</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.000.000 + Sertifikat + trophy</td>
+              <td>b.</td>
+              <td>Juara II</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.500.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>c.</td>
-            <td>Juara III</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 700.000 + Sertifikat + trophy</td>
+              <td>c.</td>
+              <td>Juara III</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.000.000 + Sertifikat + trophy</td>
           </tr>
         </table>
         <br>
       <h6 class="subhead">Olimpiade Bahasa inggris </h6>
       <table cellpadding="5">
-                <tr>
-            <td>a.</td>
-            <td>Juara I</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.300.000 + Golden Ticket PSB + Sertifikat + trophy</td>
+          <tr>
+              <td>a.</td>
+              <td>Juara I</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 2.000.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>b.</td>
-            <td>Juara II</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 1.000.000 + Sertifikat + trophy</td>
+              <td>b.</td>
+              <td>Juara II</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.500.000 + Golden Ticket PSB + Sertifikat + trophy</td>
           </tr>
           <tr>
-            <td>c.</td>
-            <td>Juara III</td>
-            <td style="text-align:right;">:</td>
-            <td>Rp. 700.000 + Sertifikat + trophy</td>
+              <td>c.</td>
+              <td>Juara III</td>
+              <td style="text-align:right;">:</td>
+              <td>Rp. 1.000.000 + Sertifikat + trophy</td>
           </tr>
         </table>
-        <button class="btn-rulebook" style="margin-top: 35px"><a href="https://intip.in/kebutuhanpeserta">Download <i>Guidebook</i>-nya</a></button>
+        <button class="btn-rulebook" style="margin-top: 35px">
+            <a href="https://intip.in/kebutuhanpeserta">Download<i>Guidebook</i>-nya</a>
+        </button>
   </body>
 </html>
