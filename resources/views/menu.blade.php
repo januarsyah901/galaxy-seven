@@ -35,17 +35,17 @@
                  <div class="col-12">
 
                      @if ($type == 'olimpiade')
-                         @include('content.olimpiade_content');
+                         @include('content.olimpiade_content')
                      @elseif($type == 'podcast')
-                         @include('content.podcast');
+                         @include('content.podcast')
                      @elseif($type == 'fotografi')
-                         @include('content.fotografi_content');
+                         @include('content.fotografi_content')
                      @elseif($type == 'poster')
-                         @include('content.poster_content');
+                         @include('content.poster_content')
                      @elseif ($type == 'videografi')
-                         @include('content.videografi_content');
+                         @include('content.videografi_content')
                      @elseif ($type == 'tiktok')
-                         @include('content.tiktok_content');
+                         @include('content.tiktok_content')
                      @endif
 
                  </div>
