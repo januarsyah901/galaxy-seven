@@ -29,7 +29,13 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5"
+<<<<<<< HEAD
                                 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Cyberspace The World's Reflection</h1>
+=======
+                                data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">
+                                Cyberspace The World's Reflection</h1>
+
+>>>>>>> a666f7d6dfc77234ae6a3b8cf072c6b73326e0bc
                             <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5"
                                 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">membangun
                                 generasi penerus bangsa yang memiliki kemampuan serta
