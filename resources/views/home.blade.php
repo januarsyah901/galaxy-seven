@@ -102,11 +102,11 @@
     <!-- /banner-feature -->
 
     <!-- success story -->
-    <section class="section bg-cover" data-background="assets/images/galaxy_6.0/febi.webp">
+    <section class="section bg-cover" data-background="assets/images/galaxy_7/keseruan_galaxy.JPG">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-4 position-relative success-video">
-                    <a class="play-btn venobox" href="https://www.youtube.com/watch?v=3-Tnwunru8k" data-vbtype="video">
+                    <a class="play-btn venobox" href="https://youtu.be/LOEaB532uDs?si=6AyVSrs1kSbI6QfU" data-vbtype="video">
                         <i class="ti-control-play" style="font-size: 50px;"></i>
                     </a>
                     <h1 style="color: white;">Lihat Video Keseruan Galaxy</h1>
@@ -134,18 +134,18 @@
                 <div class="col-12">
                     <h2 class="section-title">Guest Star</h2>
                 </div>
-                <div class="col-lg-5 col-sm-6 mb-5 mb-lg-0" style="margin-right:25px \">
-            <div class="card
-                    border-0 rounded-0 hover-shadow">
-                    <img class="card-img-top rounded-0" src="assets/images/galaxy_4.0/Guest star laki.jpg"
-                        alt="teacher">
-                    <div class="card-body">
-                        <h4 class="card-title" style="text-align:center; font-size:40px;">COMING SOON</h4>
-                        <p></p>
+                <div class="col-lg-5 col-sm-6 mb-5 mb-lg-0" style="margin-right:25px">
+                    <div class="card
+                        border-0 rounded-0 hover-shadow">
+                        <img class="card-img-top rounded-0" src="assets/images/galaxy_4.0/Guest star laki.jpg"
+                            alt="teacher">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align:center; font-size:40px;">COMING SOON</h4>
+                            <p></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -158,9 +158,9 @@
                         <h2 class="text-white">Total Hadiah</h2>
                         <div class="mx-auto">
                             <div class="d-flex justify-content-center">
-                                <h1 class="text-white">Rp<h1>
+                                <h1 class="text-white">Rp</h1>
                                         <h1 class="count text-white" data-count="13"></h1>
-                                        <h1 class="text-white"> Juta Rupiah<h1>
+                                        <h1 class="text-white"> Juta Rupiah</h1>
                             </div>
                         </div>
                     </div>
