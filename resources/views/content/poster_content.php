@@ -18,7 +18,7 @@
 <!--      font-family: cursive;-->
 <!--      font-size: 20px;-->
 <!--    }-->
-    
+
 <!--    .subhead{-->
 <!--        font-weight: 500;-->
 <!--        color: lightslategrey;-->
@@ -72,7 +72,7 @@
         <li>Jenis poster yang dilombakan adalah <i>Poster public</i></li>
         <li>Desain dibuat menarik dan berwarna, jumlah warna bebas</li>
         <li>Menjauhkan tulisan dari plagiarisme (harus original) </li>
-        <li>Karya wajib mencantumkan logo MA Istimewa dan GALAXY (Untuk logo bisa di download melalui link berikut <b><a href="https://intip.in/kebutuhanpeserta">(https://intip.in/kebutuhanpeserta)</a></b></li>
+        <li>Karya wajib mencantumkan logo MA Istimewa dan GALAXY (Untuk logo bisa di download melalui link berikut <b><a href="https://intip.in/kebutuhanpesertagalaxy">(https://intip.in/kebutuhanpesertagalaxy)</a></b></li>
         <li>Peserta hanya boleh memposting karya satu postingan maksimal 5 slide. Dengan ketentuan dalam satu postingan itu, dari slide satu ke slide yang lainnya berkelanjutan. Hal ini dikarenakan agar fisibilitas text (kejelesan text) tetap terjaga</li>
         <li>Ukuran frame yaitu 1080 x 1080 px</li>
         <li>Poster hanya boleh menggunakan bahasa Indonesia dan bahasa inggris </li>
@@ -80,7 +80,7 @@
         <li>Karya yang sudah dikirimkan menjadi hak milik panitia dan keputusan juri tidak dapat diganggu gugat </li>
         <!--<li>Poster yang dikumpulkan hanya softcopy dan deskripsi singkat poster dalam bentuk microsoft word. </li>-->
         <li>Pengumpulan terakhir tanggal 12 Februari 2022 pukul 23:59  </li>
-        
+
       </ol>
       <br>
      <h4 class="head">Submisi</h4>
@@ -94,16 +94,16 @@
         <li>Bukti screenshot share ke grup wa/line/telegram.</li>
         <li>Mengunggah scan/Foto kartu identitas (KTP/Kartu Pelajar).</li>
         <!--<li>Mengisi Statement originalit (<b><a href="https://intip.in/kebutuhanpeserta">https://intip.in/kebutuhanpeserta</a></b>) dan diunggah bersamaan saat pengumpulan karya di link google form.</li>-->
-        <li>Mengisi Statement originalit (<b><a href="https://intip.in/kebutuhanpeserta">https://intip.in/kebutuhanpeserta</a></b>) dan diunggah bersamaan saat pengumpulan karya di link google form. <a href="https://intip.in/pengumpulanmultimediaGALAXY">https://intip.in/pengumpulanmultimediaGALAXY</a></li>
-        
+        <li>Mengisi Statement originalit (<b><a href="https://intip.in/kebutuhanpesertagalaxy">https://intip.in/kebutuhanpesertagalaxy</a></b>) dan diunggah bersamaan saat pengumpulan karya di link google form. <a href="https://intip.in/pengumpulanmultimediaGALAXY">https://intip.in/pengumpulanmultimediaGALAXY</a></li>
+
       </ol>
       <h6 class="subhead">Postingan karya</h6>
       <ol start="1" class="list">
         <li>Peserta mengunggah hasil karya pada akun Instagram peserta <b>(diwajibkan menon-aktifkan mode <i>private</i> akun)</b> </li>
-        
+
         <li>Maksimal 1 poster</li>
         <li>Deskripsi karya poster di instagram berformat (judul poster, makna poster).</li>
-        <li>Sertakan tagar  #NewSpiritGLX6 #galaxy6.0 #thefutureofnewnusantara</li>
+        <li>Sertakan tagar  #NewSpiritGLX7 #galaxy7.0 #thefutureofnewnusantara</li>
         <li>Tag akun <b><a href="https://instagram.com/mai.amanatulummah.pacet">@mai.amanatulummah.pacet</a></b> dan <b><a href="https://instagram.com/galaxy.olympiad">@galaxy.olympiad</a></b></li>
       </ol>
 
@@ -115,11 +115,11 @@
         <li>Peserta mencari like sebanyak-banyaknya pada karyanya yang telah di posting di instagram <b><a href="https://instagram.com/galaxy.olympiad">@galaxy.olympiad</a></b></li>
         <li>Dari 10 karya tersebut akan dipilih 2 karya terbaik yang akan menjadi pemenang.</li>
       </ol>
-      
+
       <br>
     <h4 class="head">Hadiah </h4>
         <p>Total hadiah bernilai jutaan rupiah</p>
       <br>
-      <button class="btn-rulebook"><a href="https://intip.in/kebutuhanpeserta">Download <i>Guidebook</i>-nya</a></button>
+      <button class="btn-rulebook"><a href="https://intip.in/kebutuhanpesertagalaxy">Download <i>Guidebook</i>-nya</a></button>
   </body>
 </html>

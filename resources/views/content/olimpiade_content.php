@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--<!DOCTYPE html>-->
 <!--<html lang="zxx">-->
 <!--  <head>-->
@@ -50,7 +49,7 @@
     <td>-</td>
     <td>Quarter final</td>
     <td style="text-align:right;">:</td>
-    <td>3 Februari 2024</td>
+    <td>4 Februari 2024</td>
   </tr>
   <tr>
     <td>-</td>
@@ -75,10 +74,11 @@
 <h4 class="head">Pendaftaran</h4>
 <h6 class="subhead">Online</h6>
 <ol class="list">
-  <li>Mendaftar melalui website GALAXY <b> <a href="http://galaxy.mai-au.sch.id/register/type/penyisihan/">daftar disini</a> </b>
+  <li>Mendaftar melalui website GALAXY <b> <a href="http://galaxy.mai-au.sch.id/register">daftar disini</a> </b>
   </li>
   <li>Mengisi form pendaftaran dengan benar.</li>
-  <li>Mengupload twibbon dengan link : <a href="http://twb.nz/olimpiadegalaxy">http://twb.nz/olimpiadegalaxy</a></li>
+  <li>Mengupload twibbon dengan link : <a href="intip.in/kebutuhanpesertagalaxy">
+          https://twb.nz/olimpiadegalaxy</a></li>
   <li>setelah mengisi form pendaftaran, kamu akan diberikan link grup WhatsApp</li>
   <li>apabila peserta tidak bisa bergabung pada link yang telah di sediakan, peserta dapat mengkontak panitia</li>
 
@@ -130,7 +130,7 @@
   </tr>
 </table>
 <br>
-<button class="btn-rulebook" style="margin-top: 35px"><a href="https://intip.in/kebutuhanpeserta">Download <i>Guidebook</i>-nya</a></button>
+<button class="btn-rulebook" style="margin-top: 35px"><a href="intip.in/kebutuhanpesertagalaxy">Download <i>Guidebook</i>-nya</a></button>
 </body>
 
 </html>
@@ -332,8 +332,7 @@ keikutsertaannya oleh panitia
           </tr>
         </table>
         <button class="btn-rulebook" style="margin-top: 35px">
-            <a href="https://intip.in/kebutuhanpeserta">Download<i>Guidebook</i>-nya</a>
+            <a href="https://intip.in/kebutuhanpesertagalaxy">Download<i>Guidebook</i>-nya</a>
         </button>
   </body>
 </html>
->>>>>>> a666f7d6dfc77234ae6a3b8cf072c6b73326e0bc

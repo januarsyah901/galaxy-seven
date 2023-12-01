@@ -18,7 +18,7 @@
 <!--      font-family: cursive;-->
 <!--      font-size: 20px;-->
 <!--    }-->
-    
+
 <!--    .subhead{-->
 <!--        font-weight: 500;-->
 <!--        color: lightslategrey;-->
@@ -29,7 +29,7 @@
 <!--  <body>-->
 
 
-      
+
   <h2 class="section-title">KOMPETISI FOTOGRAFI</h2>
   <h4 class="head">Tema</h4>
   <p>“Techno Art”</p>
@@ -46,13 +46,13 @@
             <td>-</td>
             <td>Pembukaan pendaftaran</td>
             <td style="text-align:right;">:</td>
-            <td>1 desember 2022 </td>
+            <td>1 desember 2023 - 10 Januari 2024 </td>
           </tr>
           <tr>
             <td>-</td>
             <td>Pengumpulan karya</td>
             <td style="text-align:right;">:</td>
-            <td>8 Februari 2023 - 12 Februari 2023</td>
+            <td>31 Januari 2024 - 02 Februari 2024</td>
           </tr>
           <tr>
             <td>-</td>
@@ -73,28 +73,31 @@
       </ol>
     <br>
     <h4 class="head">Biaya Pendaftaran </h4>
-        <p>Rp 20.000,-</p>
+        <p>Rp 30.000,-</p>
       <br>
     <h4 class="head">Ketentuan Karya</h4>
       <ol start="1" class="list">
         <li>Karya merupakan karya sendiri dan belum pernah diikutkan lomba lain</li>
         <li>Maksimal 1 karya </li>
-        <li>Karya harus original tanpa ada campur editing</li>
-        <li>Karya harus adengan format RAW dengan resolusi 300 ppi dengan frame landscape atau square</li>
-        <li>Karya wajib menggunakan kamera DSLR/mirrorless</li>
-        <li>Karya yang dikirim dan diikutsertakan dalam lomba tidak mengandung unsur SARA, pornografi, kekerasan dan apapun yang bertentangan dengan hukum di Indonesia</li>
-        <li>Jika karya tidak sesuai dengan tema maka akan otomatis didiskualifikasi</li>
+        <li>Karya merupakan karya sendiri</li>
+        <li>Belum pernah di ikuti lomba lain</li>
+        <li>Device bebas</li>
+        <li>Tidak mengandung unsur SARA, pornografi, kekerasan , apapun yang bertentanga dengan hukum Indonesia (panitia tidak bertanggungjawab dengan karya peserta apabila melanggar hukum)</li>
+        <li>Yang tidak sesuai dengan tema akan didikulifikasi </li>
+        <li>Wajib memposting di instagram peserta</li>
+        <li>Maksimal 1 foto</li>
+        <li>Peserta wajib menghastag #lombaFotoGrafi  #NewspiritGLX7 #AmazingFotoGrafi #GALAXY7.0 #cyberspacetheworldreflection</li>
       </ol>
       <br>
      <h4 class="head">Submisi</h4>
      <h6 class="subhead">Pendaftaran dan pengiriman karya</h6>
-     <p>Untuk pendaftaran, silahkan mengisi formulir di google form berikut <b><a href="https://instagram.com/mai.amanatulummah.pacet">@mai.amanatulummah.pacet</a></b> dan (<b><a href="https://intip.in/pendaftaranmultimediaGALAXY">https://intip.in/pendaftaranmultimediaGALAXY</a></b>)</p>
+     <p>Untuk pendaftaran, silahkan mengisi formulir di google form berikut <b><a href="https://instagram.com/mai.amanatulummah.pacet">@mai.amanatulummah.pacet</a></b> dan (<b><a href="https://intip.in/pendaftaranmultimediaGALAXY7">https://intip.in/pendaftaranmultimediaGALAXY7</a></b>)</p>
      <h6>Data yang dikirimkan di google form :</h6>
      <ol start="1" class="list">
         <li>Link/URL hasil foto yang telah di post melalui akun instagram.</li>
         <li>Bukti screenshot share ke grup wa/line/telegram.</li>
         <li>Mengunggah scan/Foto kartu identitas (KTP/Kartu Pelajar).</li>
-        <li>Mengisi Statement originalit (<b><a href="https://intip.in/kebutuhanpeserta">https://intip.in/kebutuhanpeserta</a></b>) dan diunggah bersamaan saat pengumpulan karya di link google form. <a href="https://intip.in/pengumpulanmultimediaGALAXY">https://intip.in/pengumpulanmultimediaGALAXY</a></li>
+        <li>Mengisi Statement originalit (<b><a href="https://intip.in/kebutuhanpesertagalaxy">https://intip.in/kebutuhanpesertagalaxy</a></b>) dan diunggah bersamaan saat pengumpulan karya di link google form. <a href="https://intip.in/pendaftaranmultimediaGALAXY7">https://intip.in/pendaftaranmultimediaGALAXY7</a></li>
       </ol>
      <h6 class="subhead">Postingan karya</h6>
       <ol start="1" class="list">
@@ -102,7 +105,7 @@
         <li>Maksimal 1 Foto</li>
         <li>Deskripsi karya foto di instagram berformat (judul foto, makna foto, tanggal
       pengambilan foto).</li>
-        <li>Sertakan tagar : #lombafotografi #NewSpiritGLX6 #Amazingfotografi #galaxy6.0 #thefutureofnewnusantara</li>
+        <li>Sertakan tagar : #lombafotografi #NewSpiritGLX7 #Amazingfotografi #galaxy7.0 #thefutureofnewnusantara</li>
         <li>Tag akun <b><a href="https://instagram.com/mai.amanatulummah.pacet">@mai.amanatulummah.pacet</a></b> dan <b><a href="https://instagram.com/galaxy.olympiad">@galaxy.olympiad</a> Dan 3 Teman kamu</b></li>
       </ol>
       <h6 class="subhead">Pengunggahan karya</h6>
@@ -113,11 +116,11 @@
         <li>Peserta mencari like sebanyak-banyaknya pada karyanya yang telah di posting di instagram <b><a href="https://instagram.com/galaxy.olympiad">@galaxy.olympiad</a></b></li>
         <li>Dari 10 karya tersebut akan dipilih 2 karya terbaik yang akan menjadi pemenang.</li>
       </ol>
-      
+
       <br>
     <h4 class="head">Hadiah </h4>
         <p>Total hadiah bernilai jutaan rupiah</p>
       <br>
-      <button class="btn-rulebook"><a href="https://intip.in/kebutuhanpeserta">Download <i>Guidebook</i>-nya</a></button>
+      <button class="btn-rulebook"><a href="https://intip.in/kebutuhanpesertagalaxy">Download <i>Guidebook</i>-nya</a></button>
   <!-- </body>
 </html> -->

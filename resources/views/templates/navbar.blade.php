@@ -33,7 +33,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
 
-                <a class="navbar-brand" href="../galaxy/"><img src="{{ url('assets/images/logo 6.png') }}"
+                <a class="navbar-brand" href="/"><img src="{{ url('assets/images/galaxy_7/logo_7.png') }}"
                         alt="logo" style="max-width: 200px;"></a>
                 <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,8 @@
                                 <a class="dropdown-item" href="{{ url('menu/poster') }}">Poster</a>
                                 <!--<a class="dropdown-item" href="menu/index/videografi">Videografi</a>-->
                                 {{-- <a class="dropdown-item" href="{{ url('menu/tiktok') }}">Tiktok</a> --}}
-                                <a class="dropdown-item" href="{{ url('menu/pidato') }}">Pidato</a>
+                                <a class="dropdown-item" href="{{ url('menu/pidato') }}">Pidato Bahasa Inggris</a>
+                                <a class="dropdown-item" href="{{ url('menu/pidato') }}">Pidato Bahasa Arab</a>
                             </div>
                         </li>
                         <!--<li class="nav-item @@olimp">-->
