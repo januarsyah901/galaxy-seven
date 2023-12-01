@@ -180,7 +180,7 @@
             <!--  <a  href="menu/olimpiade" class="btn olimpiade">Download Rulebook</a>-->
             <!--  </div>-->
             <div class="col-12" style="text-align: center">
-                <a href="https://intip.in/kebutuhanpeserta" target="blank" class="btn olimpiade">Download
+                <a href="https://intip.in/kebutuhanpesertagalaxy" target="blank" class="btn olimpiade">Download
                     Rulebook</a>
                 <!--<object data="file.pdf" type="application/pdf" width="500" height="750">-->
                 <!--    <a href="file.pdf">Download file.pdf</a>-->
