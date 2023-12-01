@@ -3,7 +3,7 @@
  @extends('templates.main')
 
  @section('container')
-     <section class="page-title-section overlay" data-background="{{ url("assets/images/galaxy_4.0/Background.jpg") }}">
+     <section class="page-title-section overlay" data-background="{{ url('assets/images/galaxy_4.0/Background.jpg') }}">
          <div class="container">
              <div class="row">
                  <div class="col-md-8">
@@ -18,7 +18,7 @@
                      <?php }
           if ($type == 'olimpiade') { ?>
                      <p class="text-lighten">Olimpiade MIPA, PAI, IPS dan Bahasa Inggris SMP/MTs tingkat nasional </p>
-                     <a href="register/type/penyisihan/" class="btn btn-primary" data-animation-out="fadeOutRight"
+                     <a href="{{ url('login') }}" class="btn btn-primary" data-animation-out="fadeOutRight"
                          data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Daftar
                          Sekarang</a>
                      <?php } ?>

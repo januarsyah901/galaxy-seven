@@ -21,7 +21,7 @@
                         <li class="list-inline-item"><a
                                 class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block"
                                 href="http://www.mai-au.sch.id/">MA Istimewa Amanatul Ummah Galaxy</a></li>
-                                {{-- perubahan hari ini --}}
+                        {{-- perubahan hari ini --}}
                         <!--<li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="login/">login</a></li>-->
                     </ul>
                 </div>
@@ -34,13 +34,13 @@
             <nav class="navbar navbar-expand-lg navbar-light p-0">
 
                 <a class="navbar-brand" href="../galaxy/"><img src="{{ url('assets/images/logo 6.png') }}"
-                        alt="logo" style="max-width: 75%;"></a>
+                        alt="logo" style="max-width: 200px;"></a>
                 <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
                     aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navigation">
+                <div class="collapse navbar-collapse justify-content-center" id="navigation">
                     <ul class="navbar-nav ml-auto text-center">
                         <li <?php if ($dt == '' || $dt == 'home') {
                             echo "class='nav-item active'";
@@ -74,7 +74,8 @@
                                 <a class="dropdown-item" href="{{ url('/menu/fotografi') }}">Fotografi</a>
                                 <a class="dropdown-item" href="{{ url('menu/poster') }}">Poster</a>
                                 <!--<a class="dropdown-item" href="menu/index/videografi">Videografi</a>-->
-                                <a class="dropdown-item" href="{{ url('menu/tiktok') }}">Tiktok</a>
+                                {{-- <a class="dropdown-item" href="{{ url('menu/tiktok') }}">Tiktok</a> --}}
+                                <a class="dropdown-item" href="{{ url('menu/pidato') }}">Pidato</a>
                             </div>
                         </li>
                         <!--<li class="nav-item @@olimp">-->
@@ -96,7 +97,7 @@
                         } else {
                             echo "class='nav-item'";
                         } ?>>
-                            <a class="nav-link" href="{{ url('/article') }}">Galaxy 5.0</a>
+                            <a class="nav-link" href="{{ url('/article') }}">Galaxy 6.0</a>
                         </li>
                         <li <?php if ($dt == 'contact') {
                             echo "class='nav-item active'";

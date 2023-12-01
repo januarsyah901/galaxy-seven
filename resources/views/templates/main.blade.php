@@ -15,7 +15,7 @@
         gtag('config', 'UA-40749729-3');
     </script>
     <meta charset="utf-8">
-    <title>GALAXY 6.0</title>
+    <title>GALAXY 7.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

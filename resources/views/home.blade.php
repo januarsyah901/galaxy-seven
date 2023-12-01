@@ -29,9 +29,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5"
-                                data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">The Future Of
-                                New Nusantara</h1>
-
+                                data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Cyberspace The World's Reflection</h1>
                             <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5"
                                 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">membangun
                                 generasi penerus bangsa yang memiliki kemampuan serta
