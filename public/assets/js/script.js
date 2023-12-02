@@ -186,3 +186,144 @@ $(".remove-preview").on("click", function () {
         counter();
     });
 })(jQuery);
+
+
+
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 3,
+      },
+    },
+  });
+  
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+  function openNav() {
+    document.getElementById('mySidenav').style.width = '250px';
+    document.getElementById('main').style.marginLeft = '250px';
+    setTimeout(() => {
+      document.getElementsByClassName('isi-sidenav')[0].style.display = 'block';
+      document.getElementsByClassName('isi-sidenav')[1].style.display = 'block';
+    }, 280);
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById('mySidenav').style.width = '0';
+    document.getElementById('main').style.marginLeft = '0';
+    document.getElementsByClassName('isi-sidenav')[0].style.display = 'none';
+    document.getElementsByClassName('isi-sidenav')[1].style.display = 'none';
+  }
+  
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById('myTopnav');
+    if (x.className === 'topnav') {
+      x.className += ' responsive';
+    } else {
+      x.className = 'topnav';
+    }
+  }
+  
+  // Get the elements
+  var uploadBox = document.getElementById('upload-box');
+  var imageInput = document.getElementById('image');
+  var previewArea = document.getElementById('preview-area');
+  var previewImage = document.getElementById('preview-image');
+  var removeButton = document.getElementById('remove-button');
+  
+  // Add event listeners
+  uploadBox.addEventListener('click', function () {
+    // Trigger the file input click
+    imageInput.click();
+  });
+  
+  imageInput.addEventListener('change', function () {
+    // Get the selected file
+    var file = this.files[0];
+  
+    // Check if it is an image
+    if (file && file.type.startsWith('image/')) {
+      // Create a file reader
+      var reader = new FileReader();
+  
+      // Add a load event listener
+      reader.addEventListener('load', function () {
+        // Hide the upload box
+        uploadBox.style.display = 'none';
+  
+        // Show the preview area
+        previewArea.style.display = 'block';
+  
+        // Set the preview image source
+        previewImage.src = this.result;
+      });
+  
+      // Read the file as a data URL
+      reader.readAsDataURL(file);
+    } else {
+      // Show an alert
+      alert('Silakan pilih file gambar yang valid.');
+  
+      // Reset the input value
+      imageInput.value = '';
+    }
+  });
+  
+  removeButton.addEventListener('click', function () {
+    // Reset the input value
+    imageInput.value = '';
+  
+    // Hide the preview area
+    previewArea.style.display = 'none';
+  
+    // Show the upload box
+    uploadBox.style.display = 'flex';
+  });
+  
+  // Prevent the default behavior of drag and drop
+  document.addEventListener('dragover', function (e) {
+    e.preventDefault();
+  });
+  
+  document.addEventListener('drop', function (e) {
+    e.preventDefault();
+  
+    // Get the dropped file
+    var file = e.dataTransfer.files[0];
+  
+    // Check if it is an image
+    if (file && file.type.startsWith('image/')) {
+      // Create a file reader
+      var reader = new FileReader();
+  
+      // Add a load event listener
+      reader.addEventListener('load', function () {
+        // Hide the upload box
+        uploadBox.style.display = 'none';
+  
+        // Show the preview area
+        previewArea.style.display = 'block';
+  
+        // Set the preview image source
+        previewImage.src = this.result;
+      });
+  
+      // Read the file as a data URL
+      reader.readAsDataURL(file);
+    } else {
+      // Show an alert
+      alert('Silakan pilih file gambar yang valid.');
+  
+      // Reset the input value
+      imageInput.value = '';
+    }
+  });
+  
