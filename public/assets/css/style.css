@@ -18,9 +18,9 @@ body {
     /* margin-bottom: 10px; */
 }
 
-/* .navbar-nav {
-    margin-right: 10%;
-  } */
+.navbar-nav {
+    margin-left: 0;
+}
 
 .nav-logo {
     color: #7353d9;
@@ -37,6 +37,10 @@ body {
 
 .nav-item {
     margin: 0px 17px;
+}
+
+.nav-link:hover {
+    color: #ab268e;
 }
 
 .nav-item a {
@@ -71,6 +75,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+    .navbar-nav {
+        margin-left: 10%;
+    }
     .menu {
         background: none;
 
@@ -257,6 +264,18 @@ body {
     margin-top: 20px;
 }
 
+.alur-selengkapnya {
+    color: #f2f2f2;
+    background-color: #a52d8a;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
 .circle-blue {
     z-index: -10;
     border-radius: 577.415px;
@@ -294,9 +313,20 @@ body {
         color: #a52d8a;
         font-family: Poppins;
         font-size: 16px;
+        background-color: #f2f2f2;
         font-style: normal;
         font-weight: 600;
-        background-color: #f2f2f2;
+        border-radius: 5px;
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    .alur-selengkapnya {
+        color: #f2f2f2;
+        background-color: #a52d8a;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
         border-radius: 5px;
         padding: 10px 15px;
         margin-top: 20px;
@@ -410,7 +440,7 @@ body {
 .alur-modal h1 {
     color: #000;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
 }
@@ -418,11 +448,13 @@ body {
 .alur-modal p {
     color: #7f7f7f;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px; /* 120.833% */
     letter-spacing: -0.12px;
+    margin: 0;
+    line-height: 15px;
 }
 
 .alur-block h1 {
@@ -457,9 +489,31 @@ body {
     border: #7a0d62 1px solid;
 }
 
-.alur-block-item {
+.alur-block-item1 {
     width: 90%;
 }
+.alur-block-item1:hover {
+    width: 90%;
+    background-color: rgb(245, 245, 245, 0.2);
+    transition: ease all 250ms;
+}
+.alur-block-item2:hover {
+    width: 90%;
+    background-color: rgb(245, 245, 245, 0.2);
+    transition: ease all 250ms;
+}
+.alur-block-item3:hover {
+    width: 90%;
+    background-color: rgb(245, 245, 245, 0.2);
+    transition: ease all 250ms;
+}
+.alur-block-item2 {
+    width: 90%;
+}
+.alur-block-item3 {
+    width: 90%;
+}
+
 .alur-block .btn {
     color: #880f6a;
     background: white;
@@ -475,6 +529,14 @@ body {
         font-weight: 400;
     }
 
+    .alur-block h1 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
     .alur-block {
         border-radius: 10px;
     }
@@ -487,6 +549,25 @@ body {
         color: #880f6a;
         background: white;
         font-size: 15px;
+    }
+
+    .alur-modal h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .alur-modal p {
+        color: #7f7f7f;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px; /* 120.833% */
+        letter-spacing: -0.12px;
+        line-height: 30px;
     }
 }
 /* alur-block end __________________________________________________________________ */
@@ -1117,8 +1198,8 @@ body {
 
 #register .kanan {
     background-color: #f2f2f2;
-    height: 100vh;
-    min-height: 1000px;
+    height: auto;
+    min-height: 100vh;
 }
 
 .color-purple {
@@ -1353,10 +1434,28 @@ input[type="date"] {
 }
 
 .btn-purple {
-    border-radius: 3px;
+    border-radius: 5px;
     background: linear-gradient(180deg, #7b0c63 0%, #70105b 100%);
     color: white;
     border: none;
+}
+
+.btn-purple:hover {
+    border-radius: 5px;
+    background: linear-gradient(180deg, #7b0c63 0%, #70105b 100%);
+    color: white;
+    border: none;
+}
+.btn-outline-purple {
+    border: 3px purple solid;
+    color: purple;
+    padding: 4px;
+}
+
+.btn-outline-purple:hover {
+    border: 3px purple solid;
+    color: purple;
+    padding: 4px;
 }
 
 .countdown div {
@@ -1439,9 +1538,29 @@ input[type="date"] {
 
     .btn-purple {
         border-radius: 5px;
-        background: linear-gradient(180deg, #7b0c63 0%, #70105b 100%);
+        background: purple;
         color: white;
         border: none;
+    }
+    .btn-purple:hover {
+        border-radius: 5px;
+        background: rgb(255, 166, 255);
+        color: white;
+        border: none;
+        transition: all 200ms ease;
+    }
+
+    .btn-outline-purple {
+        border: 3px purple solid;
+        color: purple;
+        padding: 4px 4px;
+    }
+
+    .btn-outline-purple:hover {
+        border: 3px rgb(255, 166, 255) solid;
+        background-color: white;
+        color: rgb(255, 166, 255);
+        padding: 4px;
     }
 
     .countdown div {
@@ -1491,31 +1610,137 @@ input[type="date"] {
 }
 
 .previous-event img {
-    width: 160px;
-    height: 150px;
-
+    width: 100px;
+    height: 90px;
     margin: auto;
 }
 
 .previous-event h1 {
     color: #f2f2f2;
+
     font-family: Poppins;
-    /* font-size: 40px; */
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .previous-event p {
     color: #fff;
 
+    text-align: center;
     font-family: Poppins;
-    /* font-size: 20px; */
+    font-size: 8px;
     font-style: normal;
     font-weight: 400;
 }
 
+.paskib {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.abah {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.malpun {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.seminar {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+.aftershine {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.end {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 300px;
+}
+
 @media only screen and (min-width: 768px) {
+    .paskib {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 425px;
+    }
+
+    .abah {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 864px;
+    }
+
+    .malpun {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 857px;
+    }
+
+    .seminar {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 432px;
+    }
+    .aftershine {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 410px;
+    }
+
+    .end {
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 410px;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+    .previous-event img {
+        width: 230px;
+        height: 220px;
+        margin: auto;
+    }
+
+    .previous-event h1 {
+        color: #f2f2f2;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .previous-event p {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+    }
 }
 
 /* _________________________________AboutUs End________________________________________ */

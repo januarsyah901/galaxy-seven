@@ -46,9 +46,9 @@
                 <h1 class="w-50 mx-auto mt-3">Di "Galaxy," kami percaya bahwa setiap siswa memiliki potensi yang tak
                     terbatas, dan kami ingin menjadi katalisator bagi perkembangan mereka.</h1>
                 <ul class="nav justify-content-center border-bottom pb-lg-5 pb-2 mb-3 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link px-2">Beranda</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2">Tentang Kami</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2">FAQ</a></li>
+                    <li class="nav-item"><a href="{{ url('home#beranda') }}" class="nav-link px-2">Beranda</a></li>
+                    <li class="nav-item"><a href="{{ url('aboutus') }}" class="nav-link px-2">Tentang Kami</a></li>
+                    <li class="nav-item"><a href="{{ url('home#faq') }}" class="nav-link px-2">FAQ</a></li>
                 </ul>
                 <p class="text-center cp mt-3 mt-lg-5 mb-0">
                     Copyright ©

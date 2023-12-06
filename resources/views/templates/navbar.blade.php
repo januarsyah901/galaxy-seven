@@ -18,21 +18,36 @@
 
         <div class="collapse navbar-collapse menu rounded-2 justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item nav-hover-1">
-                    <a style="" class="nav-link" href="{{ url('#beranda') }}">Beranda</a>
-                </li>
-                <li class="nav-item nav-hover-1">
-                    <a style="" class="nav-link" href="{{ url('#alur') }}">Skema</a>
-                </li>
-                <li class="nav-item nav-hover-1">
-                    <a style="" class="nav-link" href="{{ url('#lomba') }}">Lomba</a>
-                </li>
 
-                <li class="nav-item nav-hover-1">
-                    <a style="" class="nav-link" href="{{ url('#faq') }}">FAQ</a>
-                </li>
+                @if ($dt == 'aboutus')
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('home/#beranda') }}">Beranda</a>
+                    </li>
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('home/#alur') }}">Skema</a>
+                    </li>
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('home/#lomba') }}">Lomba</a>
+                    </li>
 
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('home/#faq') }}">FAQ</a>
+                    </li>
+                @else
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('#beranda') }}">Beranda</a>
+                    </li>
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('#alur') }}">Skema</a>
+                    </li>
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('#lomba') }}">Lomba</a>
+                    </li>
 
+                    <li class="nav-item nav-hover-1">
+                        <a style="" class="nav-link" href="{{ url('#faq') }}">FAQ</a>
+                    </li>
+                @endif
 
 
 
@@ -96,14 +111,14 @@
                     } else {
                         echo "class='nav-item d-md-none d-block nav-hover-1'";
                     } ?>>
-                        <a style="padding: 6px" class="btn btn-dark text-white my-1" href="{{ url('/login') }}">Masuk</a>
+                        <a style="padding: 6px" class="btn btn-purple text-white my-1" href="{{ url('/login') }}">Masuk</a>
                     </li>
                     <li <?php if ($dt == 'register') {
                         echo "class='nav-item active d-md-none d-block nav-hover-1'";
                     } else {
                         echo "class='nav-item d-md-none d-block nav-hover-1'";
                     } ?>>
-                        <a style="padding: 6px" class="btn btn-outline-dark my-1" href="{{ url('/register') }}">Daftar</a>
+                        <a style="" class="btn btn-outline-purple my-1" href="{{ url('/register') }}">Daftar</a>
                     </li>
                 @endauth
             </ul>
@@ -170,14 +185,14 @@
                 } else {
                     echo "class='nav-item d-none d-md-block nav-hover-1'";
                 } ?>>
-                    <a style="padding: 6px" class="btn btn-dark text-white my-1" href="{{ url('/login') }}">Masuk</a>
-                {{-- </li>
+                    <a style="padding: 6px" class="btn btn-purple text-white my-1" href="{{ url('/login') }}">Masuk</a>
+                    {{-- </li>
                 <li <?php if ($dt == 'register') {
                     echo "class='nav-item active d-none d-md-block nav-hover-1'";
                 } else {
                     echo "class='nav-item d-none d-md-block nav-hover-1'";
                 } ?>> --}}
-                    <a style="padding: 6px" class="btn btn-outline-dark my-1" href="{{ url('/register') }}">Daftar</a>
+                    <a style="padding: 4px" class="btn btn-outline-purple my-1" href="{{ url('/register') }}">Daftar</a>
                 </li>
             @endauth
         </div>

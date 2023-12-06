@@ -189,37 +189,171 @@
 
                         <h1>Register</h1>
 
-                        <form class="form-regis" action="/submit_registration">
+                        <form class="form-regis" action="{{ url('register') }}" method="post"
+                            enctype="multipart/form-data">
                             @csrf
 
-                            <!-- Nama input -->
-                            <label class="mt-md-3" for="fname">Nama Lengkap</label><br />
-                            <input type="text" id="fname" name="fname" placeholder="Masukkan Nama"
-                                class="form-control @error('nama') is-invalid @enderror" id="nama" autofocus
-                                required value="{{ old('nama') }}">
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="nama">
+                                    Nama
+                                </label>
+                                <input type="text" name="nama"
+                                    class="form-control @error('nama') is-invalid @enderror" id="nama "
+                                    placeholder="Masukkan Nama" autofocus required value="{{ old('nama') }}">
+                                @error('nama')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
 
-                            @error('nama')
-                                <div class="invalid-feedback">
-                                    {{ $message }}
-                                </div>
-                            @enderror
+                            </div>
+                            <!-- Nomor hp input -->
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="telp">
+                                    Nomor telpon
+                                </label>
+                                <input type="text" name="telp"
+                                    class="form-control @error('telp') is-invalid @enderror" id="telp "
+                                    placeholder="Masukkan Nomor" autofocus required value="{{ old('telp') }}">
+                                <span class="mb-1 mb-md-3 ">Nomor telepon harus diawali 62</span>
+                                @error('telp')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
 
+                            </div>
+                            <!-- NISN input -->
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="nisn">
+                                    nisn
+                                </label>
+                                <input type="text" name="nisn"
+                                    class="form-control @error('nisn') is-invalid @enderror" id="nisn "
+                                    placeholder="nisn" autofocus required value="{{ old('nisn') }}"
+                                    maxlength="10">
+                                @error('nisn')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                            <!-- Sekolah input -->
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="sekolah">
+                                    Asal sekolah
+                                </label>
+                                <input type="text" name="sekolah"
+                                    class="form-control @error('sekolah') is-invalid @enderror" id="sekolah "
+                                    placeholder="sekolah" autofocus required value="{{ old('sekolah') }}">
+                                @error('sekolah')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                            <!-- Email input -->
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="email">Email</label>
+                                <input type="email" name="email"
+                                    class="form-control @error('email') is-invalid @enderror" id="email "
+                                    placeholder="Masukkan Email" autofocus required value="{{ old('email') }}">
+                                <span class="mb-1 mb-md-3 ">Email harus berformat example@gmail.com</span>
+                                @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
 
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="password">Password</label>
+                                <input type="password" name="password"
+                                    class="form-control @error('password') is-invalid @enderror" id="password"
+                                    placeholder="Password" required>
+                                <span class="mb-1 mb-md-3 ">Kata sandi harus mengandung minimal 8 karakter <br> yang
+                                    terdiri
+                                    atas
+                                    kombinasi huruf besar, huruf kecil, dan angka</span>
+                            </div>
+                            <div class="mb-1 mb-md-3 ">
+                                <label for="password_confirmation">Konfirmasi</label>
+                                <input type="password" class="form-control" id="password_confirmation"
+                                    name="password_confirmation" required>
+                                @if ($errors->has('password'))
+                                    <div class="alert alert-danger">{{ $errors->first('password') }}</div>
+                                @endif
+                            </div>
+                            <div class="form-radio mb-3">
+                                <p class="mb-0">pilih jenis kelamin</p>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="jk"
+                                        value="laki-laki" checked />
+                                    Laki-laki
+                                </label>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="jk"
+                                        value="perempuan" />
+                                    Perempuan
+                                </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="image"
+                                    class="form-label @error('image')
+                                                                is-invalid
+                                                            @enderror">Upload
+                                    bukti twibbon</label>
+                                <input class="form-control" type="file" id="image" name="image">
+                                @error('image')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                            <div class="form-radio mb-3">
+                                <p class="mb-0">pilih jenis kompetisi</p>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="type" value="mipa"
+                                        checked />
+                                    Olimpiade MIPA
+                                </label>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="type"
+                                        value="pai" />
+                                    Olimpiade PAI
+                                </label>
+                                <br>
+                                <label class="mt-1">
+                                    <input type="radio" class="option-input radio" name="type"
+                                        value="ips" />
+                                    Olimpiade IPS
+                                </label>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="type"
+                                        value="inggris" />
+                                    Olimpiade Bahasa Inggris
+                                </label>
+
+                            </div>
+
+                            {{-- 
                             <label class="mt-md-3" for="email ">Email</label><br />
                             <input type="email" id="email" name="email"
                                 placeholder="Masukkan Email" /><br />
-                            <span class="">Email harus berformat example@gmail.com</span> <br />
+                            <span class="mb-1 mb-md-3 ">Email harus berformat example@gmail.com</span> <br />
 
                             <label class="mt-md-3" for="password">Kata Sandi</label><br />
                             <input type="password" id="password" name="password"
                                 placeholder="Masukkan Kata Sandi" /><br />
-                            <span class="">Kata sandi harus mengandung minimal 8 karakter <br> yang terdiri atas
+                            <span class="mb-1 mb-md-3 ">Kata sandi harus mengandung minimal 8 karakter <br> yang terdiri atas
                                 kombinasi huruf besar, huruf kecil, dan angka</span> <br />
 
                             <label class="mt-md-3" for="phone">Nomor Telepon</label><br />
                             <input type="text" id="phone" name="phone"
                                 placeholder="Masukkan Nomor Telepon" /><br />
-                            <span class="">Nomor telepon harus diawali +62</span> <br />
+                            <span class="mb-1 mb-md-3 ">Nomor telepon harus diawali +62</span> <br /> --}}
 
                             <input type="submit" value="Daftar" />
                             <p class="text-center">Sudah punya akun? <a href="{{ url('login') }}"

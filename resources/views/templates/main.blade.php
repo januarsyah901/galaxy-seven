@@ -60,11 +60,9 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places">
     </script>
     <script src="{{ url('assets/plugins/google-map/gmap.js') }}"></script>
-    <script src="{{ url('assets/js/script.js') }}"></script>
 
-    <script src="
-    https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js
-    "></script>
+    <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="{{ url('assets/js/script.js') }}"></script>
 
 </body>
 
