@@ -1229,7 +1229,7 @@
                                                                     class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
                                                                     <div class="">
                                                                         <h2 class="m-0 my-1">HTM</h2>
-                                                                        <h1>FREE</h1>
+                                                                        <h1>30K</h1>
                                                                         @auth
                                                                             <h2>
                                                                                 Sudah mengikuti
@@ -1250,7 +1250,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="{{ url('register') }}"
+                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
@@ -1407,7 +1407,7 @@
                                                                     class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
                                                                     <div class="">
                                                                         <h2 class="m-0 my-1">HTM</h2>
-                                                                        <h1>FREE</h1>
+                                                                        <h1>30K</h1>
                                                                         @auth
                                                                             <h2>
                                                                                 Sudah mengikuti
@@ -1428,7 +1428,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="{{ url('register') }}"
+                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
@@ -1581,7 +1581,7 @@
                                                                     class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
                                                                     <div class="">
                                                                         <h2 class="m-0 my-1">HTM</h2>
-                                                                        <h1>FREE</h1>
+                                                                        <h1>40K</h1>
                                                                         @auth
                                                                             <h2>
                                                                                 Sudah mengikuti
@@ -1602,7 +1602,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="{{ url('register') }}"
+                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
@@ -1742,7 +1742,7 @@
 
                         <div class="bg-faq1 content p-3">
                             <p>
-                                kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link BERIKUT
+                                kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link <a href="{{ url('register') }}">Berikut</a>
                                 Dan lomba galaxy Non-Akademik dengan cara mengisi formulir pada link berikut
                                 <a href="intip.in/pendaftaranmultimediaGALAXY">intip.in/pendaftaranmultimediaGALAXY</a>
                             </p>
