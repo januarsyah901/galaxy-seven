@@ -3,7 +3,7 @@
  @extends('templates.main')
 
  @section('container')
-     <section class="page-title-section overlay" data-background="{{ url("assets/images/galaxy_4.0/Background.jpg") }}">
+     <section class="page-title-section overlay" data-background="{{ url('assets/images/galaxy_4.0/Background.jpg') }}">
          <div class="container">
              <div class="row">
                  <div class="col-md-8">
@@ -18,7 +18,7 @@
                      <?php }
           if ($type == 'olimpiade') { ?>
                      <p class="text-lighten">Olimpiade MIPA, PAI, IPS dan Bahasa Inggris SMP/MTs tingkat nasional </p>
-                     <a href="register/type/penyisihan/" class="btn btn-primary" data-animation-out="fadeOutRight"
+                     <a href="{{ url('login') }}" class="btn btn-primary" data-animation-out="fadeOutRight"
                          data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Daftar
                          Sekarang</a>
                      <?php } ?>
@@ -35,17 +35,17 @@
                  <div class="col-12">
 
                      @if ($type == 'olimpiade')
-                         @include('content.olimpiade_content');
+                         @include('content.olimpiade_content')
                      @elseif($type == 'podcast')
-                         @include('content.podcast');
+                         @include('content.podcast')
                      @elseif($type == 'fotografi')
-                         @include('content.fotografi_content');
+                         @include('content.fotografi_content')
                      @elseif($type == 'poster')
-                         @include('content.poster_content');
+                         @include('content.poster_content')
                      @elseif ($type == 'videografi')
-                         @include('content.videografi_content');
+                         @include('content.videografi_content')
                      @elseif ($type == 'tiktok')
-                         @include('content.tiktok_content');
+                         @include('content.tiktok_content')
                      @endif
 
                  </div>

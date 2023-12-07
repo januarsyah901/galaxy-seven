@@ -113,7 +113,7 @@
 
 
                                 <div class="card-body">
-                                    <h5 class="card-title">data peserta <span>| galaxy 6.0</span></h5>
+                                    <h5 class="card-title">data peserta <span>| galaxy 7.0</span></h5>
                                     @if (session()->has('success'))
                                         <div class="alert alert-success alert-dismissible fade show" role="alert">
                                             {{ session('success') }}
@@ -177,7 +177,7 @@
                                                     </td>
                                                     {{-- <td><span class="badge bg-success">Approved</span></td> --}}
                                                 </tr>
-                                                
+
                                                  {{-- Modal Baru --}}
 
                                                 <!-- Modal -->

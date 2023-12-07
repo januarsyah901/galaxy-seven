@@ -7,7 +7,7 @@
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
                     <li class="list-inline-item"><a class="h2 text-primary font-secondary"
-                            href="@@page-link">GALAXY 6.0</a></li>
+                            href="@@page-link">GALAXY 7.0</a></li>
                     <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
                 </ul>
                 <p class="text-lighten">Greatest Academic in The Large Andromeda X-tion of Creativity.</p>
@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-12">
                 <!-- <img class="img-fluid w-100 mb-4" src="assets/images/backgrounds/article.jpeg" alt="about image"> -->
-                <h2 class="section-title">Apa itu GALAXY 6.0?</h2>
+                <h2 class="section-title">Apa itu GALAXY 7.0?</h2>
                 <p>Galaxy merupakan sebuah event tahunan yang diselenggarakan oleh MA Istimewa Amanatul Ummah layanan
                     SKS. Kegiatan Galaxy ini sangat prospektif untuk dikembangkan dalam upaya untuk meningkatkan
                     kualitas generasi muda untuk menghadapi era millennial mengingat bangsa Indonesia saat ini semakin
@@ -180,7 +180,7 @@
             <!--  <a  href="menu/olimpiade" class="btn olimpiade">Download Rulebook</a>-->
             <!--  </div>-->
             <div class="col-12" style="text-align: center">
-                <a href="https://intip.in/kebutuhanpeserta" target="blank" class="btn olimpiade">Download
+                <a href="https://intip.in/kebutuhanpesertagalaxy" target="blank" class="btn olimpiade">Download
                     Rulebook</a>
                 <!--<object data="file.pdf" type="application/pdf" width="500" height="750">-->
                 <!--    <a href="file.pdf">Download file.pdf</a>-->

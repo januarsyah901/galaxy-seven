@@ -1677,6 +1677,7 @@
         </div>
     </section>
 
+    <!-- cta -->
     <section id="totalh">
         <div class="container my-5">
             <div class="bg-totalh py-5">
@@ -1694,35 +1695,6 @@
             </div>
         </div>
     </section>
-
-    {{-- <section id="merchandise">
-        <div class="container position-relative">
-            <div class="position-absolute merch-blur1"></div>
-            <div class="position-absolute merch-blur2"></div>
-            <div class="merchandise-judul text-center">
-                <h2>Our merchandise</h2>
-                <h1>Merchandise</h1>
-                <p>Ini adalah merchandise dari kami, gapapa lihat lihat dulu aja</p>
-            </div>
-            <div class="owl-carousel owl-theme mt-5">
-                <div class="item">
-                    <div class="lomba-block">
-                        <img class="mx-auto d-block py-3" src="/{{ url('assets/images/img/Lambang glx6 warna.png') }}"
-                            alt="" />
-                        <div class="mx-4 mt-3">
-                            <h1>matematika</h1>
-                            <div class="d-flex justify-content-between mt-5 pb-3">
-                                <h2 class="my-auto">Akademik</h2>
-                                <div>
-                                    <a href="" class="btn btn-light">detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 
     <section id="faq">
         <div class="container my-5">
