@@ -118,7 +118,8 @@
                     } else {
                         echo "class='nav-item d-md-none d-block nav-hover-1'";
                     } ?>>
-                        <a style="" class="btn btn-outline-purple my-1" href="{{ url('/register') }}">Daftar</a>
+                        <a style="" style="color: purple" class="btn btn-outline-purple my-1"
+                            href="{{ url('/register') }}">Daftar</a>
                     </li>
                 @endauth
             </ul>
@@ -192,7 +193,8 @@
                 } else {
                     echo "class='nav-item d-none d-md-block nav-hover-1'";
                 } ?>> --}}
-                    <a style="padding: 4px" class="btn btn-outline-purple my-1" href="{{ url('/register') }}">Daftar</a>
+                    <a style="padding: 4px" style="color: purple" class="btn btn-outline-purple my-1"
+                        href="{{ url('/register') }}">Daftar</a>
                 </li>
             @endauth
         </div>
