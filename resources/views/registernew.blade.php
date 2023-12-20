@@ -306,6 +306,9 @@
                                                             @enderror">Upload
                                     bukti twibbon</label>
                                 <input class="form-control" type="file" id="image" name="image">
+
+                                <span class="mt-4"> Link twibbon bisa diakses di web berikut ini : <a
+                                        href="https://twb.nz/galaxyolimp">https://twb.nz/galaxyolimp</a></span>
                                 @error('image')
                                     <div class="invalid-feedback">
                                         {{ $message }}

@@ -12,7 +12,7 @@
                     <img src="{{ url('assets/images/img/logo glx.png') }}" alt="" class="tagline-img" />
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="tagline-line"></div>
-                        <h1 class="m-0 mx-3">Petualangan di luar batas alam semesta</h1>
+                        <h1 class="m-0 mx-3">Cyberspace the world's reflection</h1>
                         <div class="tagline-line"></div>
                     </div>
 
@@ -169,47 +169,53 @@
                                     </p> <br>
                                     <ul>
                                         <h5>
-                                            Pendaftaran non akademik dan akademik
+                                            Pendaftaran akademik
                                         </h5>
                                         <li>
-                                            1 Desember 2023 – 10 Januari 2024
+                                            1 Desember 2023 – 29 Januari 2024
+                                        </li>
+                                        <h5>
+                                            Pendaftaran non akademik
+                                        </h5>
+                                        <li>
+                                            1 desember 2023 – 20 januari 2024
                                         </li>
                                         <h5>
                                             Penyisihan
                                         </h5>
                                         <li>
-                                            13 Januari 2024 – 14 Januari 2024
+                                            3 Februari 2024 – 4 Februari 2024
                                         </li>
                                         <h5>
                                             Pengumuman penyisihan
                                         </h5>
                                         <li>
-                                            16 Januari 2024
+                                            6 Februari 2024
                                         </li>
                                         <h5>
                                             Pembayaran
                                         </h5>
                                         <li>
-                                            18 Januari – 30 Januari 2024
+                                            7 Februari -13 Februari 2024
                                         </li>
                                         <h5>
                                             Pengumpulan karya non akademik online
                                         </h5>
                                         <li>
-                                            31 Januari – 2 Febuari 2024
+                                            23 Januari – 25 Februari 2024
                                         </li>
                                         <h5>
                                             Pengumuman karya non akademik
                                         </h5>
                                         <li>
-                                            3 Febuari 2024
+                                            26 januari 2024
                                         </li>
                                         <h5>
                                             Quarter final online
                                         </h5>
                                         <li>
 
-                                            4 Febuari 2024
+                                            17 Febuari- 18 Februari 2024
                                         </li>
                                         <h5>
 
@@ -217,14 +223,14 @@
                                         </h5>
                                         <li>
 
-                                            6 Febuari 2024
+                                            20 Febuari 2024
                                         </li>
                                         <h5>
                                             Semifinal + final
                                         </h5>
                                         <li>
 
-                                            25 febuari 2024
+                                            25 Febuari 2024
                                         </li>
                                     </ul>
                                     <a href="" class="btn btn-light"></a>
@@ -1744,8 +1750,8 @@
                             <p>
                                 kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link <a href="{{ url('register') }}">Berikut</a>
                                 Dan lomba galaxy Non-Akademik dengan cara mengisi formulir pada link berikut
-                                <a href="intip.in/pendaftaranmultimediaGALAXY">intip.in/pendaftaranmultimediaGALAXY</a>
-                            </p>
+                                <a href="https://intip.in/daftargalaxy/">https://intip.in/daftargalaxy/</a>
+                            </p>    
                         </div>
                     </div>
                     <div class="tab mt-4">
