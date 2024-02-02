@@ -1,0 +1,1662 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4f4f4;
+}
+
+.button-purple {
+    display: flex;
+    /* width: ; */
+    height: 42px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #9f65ff;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.button-purple:hover {
+    color: white;
+    background: #6235ab;
+}
+
+.loginregis {
+    gap: 10px;
+}
+
+.loginregis a {
+    display: flex;
+    width: 98px;
+    height: 32px;
+    padding: 0px 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.login {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.login:hover {
+    color: #000;
+}
+
+.signin {
+    border: none;
+    background: #9f65ff;
+    color: #fff;
+}
+
+.signin:hover {
+    color: #fff;
+}
+
+.glx-logo {
+    color: #000;
+    font-family: Syne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 150%;  */
+    letter-spacing: 2.16px;
+}
+
+.nav-color-1 {
+    color: #868686;
+    font-size: 16px;
+    border-bottom: rgba(245, 245, 245, 0.01);
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.nav-color-2 {
+    color: #868686;
+    font-size: 16px;
+    border-bottom: rgba(245, 245, 245, 0.01);
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.nav-color-3 {
+    color: #868686;
+    font-size: 16px;
+    border-bottom: rgba(245, 245, 245, 0.01);
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    /* margin: 0px; */
+    font-weight: 400;
+}
+
+.nav-color-4 {
+    color: #868686;
+    font-size: 16px;
+    border-bottom: rgba(245, 245, 245, 0.01);
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    /* margin: 0px; */
+    font-weight: 400;
+}
+
+.inner-navbar {
+    max-width: 1440px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+}
+
+.nav-item {
+    margin: 0px 17px;
+}
+
+.navbar-nav {
+    background: rgba(255, 255, 255, 0.842);
+}
+
+.navbar {
+    transition: all 0.2s linear;
+    /* backdrop-filter: blur(5px); */
+    padding: 0px;
+    margin: 0px;
+    background: rgba(245, 245, 245, 0);
+    /* box-shadow: black ; */
+    /* position: absolute */
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.842);
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    font-family: "Jua", sans-serif;
+    color: white;
+}
+
+.logo span {
+    color: #fdc55e;
+}
+
+.menu {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(245, 245, 245, 0.99);
+    backdrop-filter: blur(5px);
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav {
+        background: rgba(0, 0, 0, 0);
+    }
+    .menu {
+        background: none;
+
+        backdrop-filter: none;
+    }
+}
+
+.logo h2 {
+    font-size: 23px;
+}
+
+@media only screen and (min-width: 768px) {
+    .logo h2 {
+        font-size: 35px;
+    }
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Navbar end */
+/* Navbarr */
+
+/* Beranda __________________________________________________________________ */
+
+.landing {
+    overflow: hidden;
+}
+
+.landing-text {
+    margin-top: 200px;
+}
+
+.tagline-brand-img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.landing-brand {
+    color: #000;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -3.36px;
+    margin: 0;
+}
+.landing-brand span {
+    color: #9f65ff;
+    font-size: 80px;
+    font-weight: 500;
+    letter-spacing: -5.6px;
+    line-height: 0;
+}
+
+.landing-tagline {
+    color: #000;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -2.8px;
+}
+
+.landing-est {
+    justify-content: space-between;
+    padding-right: 30%;
+}
+
+.landing-est span {
+    color: #676767;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.landing-detail-text {
+    color: #868686;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.landing-img {
+    /* position: absolute; */
+    width: 100%;
+}
+
+.landing-bottom {
+    display: inline-block;
+    margin: 0 auto;
+    width: 437px;
+}
+
+.landing-bottom h1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.landing-bottom h2 {
+    color: #868686;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.textTitle h1 {
+    color: #000;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.textTitle h2 {
+    color: #000;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.textTitle p {
+    color: #868686;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.joinUs {
+    margin-top: 100px;
+}
+
+.landing-tropy {
+    width: 500px;
+}
+
+.bintangTropy {
+    height: 35px;
+}
+
+@media only screen and (max-width: 998px) {
+    .landing-text {
+        margin-top: 180px;
+    }
+
+    .landing-brand {
+        font-size: 28px;
+        letter-spacing: -1.96px;
+    }
+    .landing-brand span {
+        font-size: 40px;
+        letter-spacing: -2.8px;
+    }
+
+    .tagline-brand-img {
+        height: 25px;
+    }
+
+    .landing-tagline {
+        font-size: 20px;
+        letter-spacing: -1.4px;
+    }
+
+    .landing-est span {
+        font-size: 14px;
+    }
+
+    .landing-detail-text {
+        font-size: 14px;
+    }
+
+    .landing-img {
+        /* position: absolute; */
+        width: 180%;
+    }
+
+    .landing-bottom {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 437px;
+    }
+
+    .landing-bottom h1 {
+        font-size: 16px;
+    }
+
+    .landing-bottom h2 {
+        font-size: 14px;
+    }
+
+    .textTitle h1 {
+        font-size: 28px;
+    }
+
+    .textTitle h2 {
+        font-size: 20px;
+    }
+
+    .textTitle p {
+        font-size: 16px;
+    }
+
+    .landing-tropy {
+        width: 313px;
+    }
+
+    .bintangTropy {
+        height: 23px;
+    }
+}
+
+/* Beranda end __________________________________________________________________ */
+
+/* ____________________Competition_--______________________________ */
+
+.competition {
+    border-radius: 40px;
+    background: #9f65ff;
+}
+
+.competition-title h1 {
+    color: #fff;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.competition-title h2 {
+    color: #fff;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.competition-title p {
+    color: #e4d3ff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content {
+    border-radius: 30px;
+    background-color: #b485ff;
+    /* min-height: 600px; */
+    height: auto;
+}
+
+.content-title {
+    border-bottom: 2px solid #c9a7ff;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+.content h1 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.content p {
+    color: #e4d3ff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.mapel-icon {
+    width: 52px;
+}
+
+.iconButton {
+    width: 72px;
+    height: 72px;
+}
+
+@media only screen and (max-width: 998px) {
+    .competition-title h1 {
+        font-size: 28px;
+    }
+
+    .competition-title h2 {
+        font-size: 20px;
+    }
+
+    .competition-title p {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+    .mapel-icon {
+        width: 35px;
+    }
+
+    .iconButton {
+        width: 46px;
+        height: 46px;
+    }
+}
+/* ____________________Competition_--______________________________ */
+
+/* ____________________Timelineee_________________________________________ */
+
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem;
+}
+
+.number-timeline {
+    color: #fff;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: 0.25rem solid #676767;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: 1.3125rem;
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: 0.25rem solid #676767;
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: 1.3125rem;
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center;
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 10px;
+    height: 3rem;
+    width: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9f65ff;
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "  ";
+    background-color: #3b82f6;
+    display: inline-block;
+    /* height: 3rem; */
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: 0.5;
+}
+
+.title-timeline h2 {
+    color: #000;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.title-timeline p {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.timeline-title {
+    color: #676767;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.timeline-time {
+    color: #676767;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 998px) {
+    .title-timeline h2 {
+        font-size: 28px;
+    }
+    .title-timeline p {
+        font-size: 20px;
+    }
+
+    .timeline-title {
+        font-size: 16px;
+    }
+
+    .timeline-time {
+        font-size: 14px;
+    }
+}
+
+/* ____________________Timelineee end_________________________________________ */
+
+/* _________________________FAQ-________________________________ */
+
+.item-faq {
+    border-bottom: #676767 solid 2px;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+
+.item-faq h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-transform: capitalize;
+}
+
+.item-faq p {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0;
+}
+
+.faq-img {
+    width: 80%;
+}
+
+@media only screen and (max-width: 998px) {
+    .faq-img {
+        width: 80%;
+    }
+}
+/* _________________________FAQ-End________________________________ */
+
+/* Ads__________________________________________ */
+
+#ads {
+    margin-top: 100px;
+}
+
+#ads h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sponsor {
+    border-radius: 10px;
+}
+
+.sponsor h2 {
+    color: #000;
+    font-family: Syne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.ads-gambar {
+    width: 90%;
+    min-width: 80px;
+    max-width: 150px;
+}
+
+@media only screen and (min-width: 992px) {
+    #ads h1 {
+        color: #000;
+        font-family: Syne;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .sponsor h2 {
+        color: #000;
+
+        font-family: Syne;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    .ads-gambar {
+        width: 90%;
+    }
+}
+/* Ads end__________________________________________ */
+
+/* FOoter____________________________________________--______________________ */
+
+footer {
+    background-color: #9f65ff;
+}
+
+.footer-qdayak h5 {
+    color: #000;
+    font-family: Syne;
+
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 28px;
+    letter-spacing: -1.96px;
+}
+
+.footer-qdayak h5 span {
+    color: #fff;
+    font-family: Syne;
+
+    font-weight: 500;
+    line-height: 0;
+    letter-spacing: -5.6px;
+
+    font-size: 40px;
+    letter-spacing: -2.8px;
+}
+
+.footer-qdayak p {
+    color: #fff;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.cp {
+    color: rgba(255, 255, 255, 0.68);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cp span {
+    color: rgba(255, 255, 255, 0.68);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cp a {
+    color: #6d27e0;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.footer-kiri li a {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: -1.12px;
+}
+
+.footer-kiri .judul {
+    font-weight: 600;
+}
+
+.footer-kiri ul {
+    list-style-type: none;
+}
+
+.border-footer {
+    border-top: 3px solid #c9a7ff;
+}
+
+@media only screen and (min-width: 998px) {
+    .footer-qdayak h5 {
+        font-size: 28px;
+        letter-spacing: -1.96px;
+    }
+
+    .footer-qdayak h5 span {
+        font-size: 80px;
+        font-style: normal;
+    }
+    .footer-qdayak p {
+        font-size: 16px;
+    }
+
+    .footer-kiri li a {
+        color: #fff;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.42px;
+    }
+    .footer-kiri .judul {
+        font-weight: 600;
+    }
+}
+/* FOoter Endd____________________________________________--______________________ */
+
+/* _________________________________Register & Login________________________________________ */
+
+#register .kiri img {
+    width: 329px;
+    margin: auto;
+    align-items: center;
+}
+
+#register .kiri {
+    background-color: #211539;
+    height: 100vh;
+}
+
+#register .kanan {
+    background-color: #f4f4f4;
+    height: auto;
+    min-height: 100vh;
+}
+
+.color-purple {
+    color: #89125d;
+}
+
+.tombol-back {
+    color: #89125d;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.isian {
+    margin: 13vh 5vw;
+}
+
+.isian h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+input[type="date"] {
+    width: 100%;
+    background-color: #89125d;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator {
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.isian input[type="text"],
+.isian input[type="password"],
+.isian input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    font-size: 8px;
+}
+
+.isian input[type="submit"] {
+    width: 100%;
+    border-radius: 10px;
+    background: #89125d;
+    color: white;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    font-size: 10px;
+}
+
+.form-regis span {
+    color: #424242;
+
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+.planet-kiri-regis {
+    bottom: -260px;
+    left: 0;
+    width: 625px;
+}
+
+.planet-atas-regis {
+    right: 0;
+    width: 401.797px;
+    top: -110px;
+}
+
+.roket-regis {
+    width: 67.957px;
+    bottom: 30px;
+    right: 30px;
+}
+
+.form-regis label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-regis p {
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    .form-regis p {
+        color: #000;
+
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .form-regis span {
+        color: #424242;
+
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1;
+    }
+    .form-regis label {
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .tombol-back {
+        color: #89125d;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.2px;
+    }
+    .isian h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .isian input[type="text"],
+    .isian input[type="password"],
+    .isian input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+        font-size: 16px;
+    }
+
+    .isian input[type="submit"] {
+        width: 100%;
+        border-radius: 10px;
+        background: #89125d;
+        color: white;
+        padding: 14px;
+        margin: 10px 0;
+        border: none;
+        font-size: 20px;
+    }
+}
+
+.breadcrumb-item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.breadcrumb-item.active a {
+    font-size: 10px;
+    font-weight: 400;
+
+    color: #790c61;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.gambar-modal {
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.isi-modal h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.isi-modal h2 {
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+}
+
+.isi-modal p {
+    color: #424242;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn-purple {
+    border-radius: 5px;
+    background: linear-gradient(180deg, #7b0c63 0%, #70105b 100%);
+    color: white;
+    border: none;
+}
+
+.btn-purple:hover {
+    border-radius: 5px;
+    background: linear-gradient(180deg, #7b0c63 0%, #70105b 100%);
+    color: white;
+    border: none;
+}
+.btn-outline-purple {
+    border: 3px purple solid;
+    color: purple;
+    padding: 4px;
+}
+
+.btn-outline-purple:hover {
+    border: 3px purple solid;
+    color: purple;
+    padding: 4px;
+}
+
+.countdown div {
+    color: white;
+    background-color: #7a0d62;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.countdown span {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.tombol-modal {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) {
+    .breadcrumb-item a {
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .breadcrumb-item.active a {
+        font-size: 16px;
+        font-weight: 400;
+
+        color: #790c61;
+    }
+
+    .modal-header {
+        border-bottom: none;
+    }
+
+    .gambar-modal {
+        max-width: 500px;
+        border-radius: 5px;
+    }
+
+    .isi-modal h1 {
+        color: #000;
+        font-family: Poppins;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .isi-modal h2 {
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .isi-modal p {
+        color: #424242;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .btn-purple {
+        border-radius: 5px;
+        background: purple;
+        color: white;
+        border: none;
+    }
+    .btn-purple:hover {
+        border-radius: 5px;
+        background: rgb(255, 166, 255);
+        color: white;
+        border: none;
+        transition: all 200ms ease;
+    }
+
+    .btn-outline-purple {
+        border: 3px purple solid;
+        color: purple;
+        padding: 4px 4px;
+    }
+
+    .btn-outline-purple:hover {
+        border: 3px rgb(255, 166, 255) solid;
+        background-color: white;
+        color: rgb(255, 166, 255);
+        padding: 4px;
+    }
+
+    .countdown div {
+        color: white;
+        background-color: #7a0d62;
+        padding: 20px;
+        border-radius: 10px;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .countdown span {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    .tombol-modal {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+    }
+}
+
+/* _________________________________Register & Login end________________________________________ */
+
+/* _________________________________AboutUs________________________________________ */
+.us {
+    height: 100vh;
+    min-height: 700px;
+    max-height: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.us-image1 {
+    width: 59px;
+    top: -50px;
+    left: 45px;
+}
+.us-image2 {
+    width: 49px;
+    top: -63px;
+    right: 74px;
+}
+.us-image3 {
+    width: 61px;
+    bottom: -60px;
+    left: 29px;
+}
+.us-image4 {
+    width: 74px;
+    bottom: -98px;
+    right: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .us-image1 {
+        width: 90px;
+        top: -50px;
+        left: 45px;
+    }
+    .us-image2 {
+        width: 120px;
+        top: -63px;
+        right: 74px;
+    }
+    .us-image3 {
+        width: 110px;
+        bottom: -100px;
+        left: 29px;
+    }
+    .us-image4 {
+        width: 94px;
+        bottom: -98px;
+        right: 0px;
+    }
+}
+
+@media only screen and (min-width: 998px) {
+    .us-image1 {
+        width: 135.149px;
+        top: -82px;
+        left: 196px;
+    }
+    .us-image2 {
+        width: 220px;
+        top: -144px;
+        right: 74px;
+    }
+    .us-image3 {
+        width: 183px;
+        bottom: -171px;
+        left: 29px;
+    }
+    .us-image4 {
+        width: 135px;
+        bottom: -135px;
+        right: 0px;
+    }
+}
+
+/* _________________________________AboutUs End________________________________________ */
+
+.mapel {
+    height: 100vh;
+    min-height: 400px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.mapel-text {
+    color: #868686;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.judul-info {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+.icon-info {
+    width: 66px;
+}
+
+.text-info h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.text-info h2 {
+    color: #868686;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.pengumuman {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: #676767 3px solid;
+    margin-bottom: 200px;
+}
+
+.pengumuman h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.pengumuman p {
+    color: #868686;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+@media only screen and (min-width: 998px) {
+}
+/* 
+_________________________________Lomba________________________________________ */
+
+/* _________________________________Lomba End________________________________________ */
+
+/* _________________________________Dashboard________________________________________ */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 250px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #211539; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    font-size: 36px;
+}
+
+.side-active {
+    background: rgba(97, 46, 137, 0.33);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+    margin-left: 250px;
+    background-color: #f2f2f2;
+}
+
+/* Style the hamburger menu icon */
+.topnav {
+    /* overflow: hidden; */
+    background-color: #f2f2f2;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #70105b;
+    text-align: center;
+    padding: 33px 16px 0 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* margin-left: auto; */
+}
+
+.dashboard-main {
+    height: 100vh;
+    min-height: 700px;
+    background-color: #f2f2f2;
+    /* height: 100%; */
+    /* padding-top: 20px; */
+}
+
+#mySidenav .logo {
+    width: 150px;
+}
+
+/* The upload box */
+.upload-box {
+    width: 10 0%;
+    height: 300px;
+    border: 3px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #999;
+    border-radius: 10px;
+}
+
+.upload-box h2 {
+    color: #a19aa0;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+/* The hover effect */
+.upload-box:hover {
+    border-color: #89125d;
+    cursor: pointer;
+}
+
+/* The preview area */
+.preview-area {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: none;
+}
+
+/* The preview image */
+.preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px dashed #ccc;
+}
+
+/* The remove button */
+.remove-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #89125d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.dashboard-main input[type="text"],
+.dashboard-main input[type="password"],
+.dashboard-main input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    font-size: 8px;
+}
+
+.dashboard-main .simpan {
+    border-radius: 10px;
+    background: #89125d;
+    color: white;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    font-size: 10px;
+}
+.dashboard-main .batal {
+    border-radius: 10px;
+    background: #676767;
+    color: white;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .dashboard-main input[type="text"],
+    .dashboard-main input[type="password"],
+    .dashboard-main input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f2f2f2;
+        font-size: 16px;
+    }
+
+    .dashboard-main .simpan {
+        width: 125px;
+        border-radius: 10px;
+        background: #89125d;
+        color: white;
+        padding: 14px;
+        margin: 10px 0;
+        border: none;
+        font-size: 20px;
+    }
+    .dashboard-main .batal {
+        width: 125px;
+        border-radius: 10px;
+        background: #676767;
+        color: white;
+        padding: 14px;
+        margin: 10px 0;
+        border: none;
+        font-size: 20px;
+    }
+}
+
+.radio-input input[type="radio"] {
+    display: none;
+}
+.radio-input label {
+    position: relative;
+    color: #4189e0;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8em;
+    border: 3px solid #4189e0;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+}
+.radio-input label:before {
+    content: "";
+    height: 2em;
+    width: 2em;
+    border: 3px solid #4189e0;
+    border-radius: 50%;
+}
+
+.radio-input input[type="radio"]:checked + .radio-input label:before {
+    height: 1em;
+    width: 1em;
+    border: 0.65em solid #ffffff;
+    background-color: #4189e0;
+}
+
+.radio-input input[type="radio"]:checked + .radio-input label {
+    background-color: #4189e0;
+    color: #ffffff;
+}
+/* _________________________________Dashboard end________________________________________ */

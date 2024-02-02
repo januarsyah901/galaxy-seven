@@ -1,4 +1,4 @@
-<div class="card-body px-4 py-5 px-md-5 d-none">
+{{-- <div class="card-body px-4 py-5 px-md-5 d-none">
 
     @if (session()->has('success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -13,21 +13,7 @@
     @endif
     <form action="{{ url('login') }}" method="post">
         @csrf
-        <!-- 2 column grid layout with text inputs for the first and last names -->
-        {{-- <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                            <input type="text" id="form3Example1" class="form-control" />
-                                            <label class="form-label" for="form3Example1">First name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <div class="form-outline">
-                                            <input type="text" id="form3Example2" class="form-control" />
-                                            <label class="form-label" for="form3Example2">Last name</label>
-                                        </div>
-                                    </div>
-                                </div> --}}
+
 
         <!-- Email input -->
         <div class="form-floating">
@@ -62,7 +48,7 @@
 
 
     </form>
-</div>
+</div> --}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -88,24 +74,39 @@
     <section id="register">
         <div class="row">
             <div class="col-md-5 d-none d-md-block p-0">
-                <div class="kiri text-center position-relative h-100 align-content-center d-flex overflow-hidden">
-                    <img class="d-block" src="{{ url('assets/images/img/logo glx.png') }}" alt="" />
-                    <img src="{{ url('assets/images/img/planet samping.png') }}" alt=""
-                        class="position-absolute planet-kiri-regis" />
-                    <img src="{{ url('assets/images/img/planet-atas.png') }}" alt=""
-                        class="position-absolute planet-atas-regis" />
-                    <img src="{{ url('assets/images/img/Rocket_illustra.png') }}" alt=""
-                        class="position-absolute roket-regis" />
+                <div class="kiri text-center position-relative h-100 align-items-center d-flex overflow-hidden  px-5 ">
+                    <div class="d-inline-block mx-5 text-start text-login">
+                        <h1>Galaxy <span>7.0</span>
+                            <img src="{{ url('assets/images/icon/earth.png') }}" alt="earth" class="icon-title mx-1">
+                            <img src="{{ url('assets/images/icon/Emot Rocket.png') }}" alt="earth"
+                                class="icon-title mx-1">
+                            <img src="{{ url('assets/images/icon/Sparkles.png') }}" alt="earth"
+                                class="icon-title mx-1">
+                        </h1>
+                        <h2>Cyberspace the world’s reflection</h2>
+                        <p>GALAXY merupakan sebuah event tahunan yang diselenggarakan oleh MA istimewa Amanatul Ummah
+                            layanan sks.</p>
+                    </div>
+                    <img src="{{ url('assets/images/icon/planet-login-1.png') }}" alt=""
+                        class="position-absolute planet-login-1" />
+                    <img src="{{ url('assets/images/icon/planet-1.png') }}" alt=""
+                        class="position-absolute planet-login-2" />
+                    <img src="{{ url('assets/images/icon/Comet.png') }}" alt=""
+                        class="position-absolute planet-login-3" />
+                    <img src="{{ url('assets/images/icon/Star2.png') }}" alt=""
+                        class="position-absolute planet-login-4" />
+
                 </div>
             </div>
             <div class="col-md-7 kanan">
                 <div class="container">
                     <div class="isian">
-                        <a class="tombol-back" href="{{ url('/home') }}"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="22" height="22" viewBox="0 0 22 22" fill="none">
+                        <a class="tombol-back" href="{{ url('/home') }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M9.40167 1.22006C10.3578 0.537062 11.6423 0.537038 12.5985 1.22L19.7613 6.33608C21.0096 7.2277 21.7505 8.66731 21.7505 10.2014V18C21.7505 20.0711 20.0716 21.75 18.0005 21.75H15.1429C13.6241 21.75 12.3929 20.5188 12.3929 19V17.5C12.3929 17.0858 12.0571 16.75 11.6429 16.75H10.3572C9.943 16.75 9.60721 17.0858 9.60721 17.5V19C9.60721 20.5188 8.37599 21.75 6.85721 21.75H4.00049C1.92942 21.75 0.250488 20.0711 0.250488 18V10.2013C0.250488 8.66728 0.991293 7.22772 2.23953 6.33609L9.40167 1.22006ZM11.7266 2.44061C11.292 2.13018 10.7082 2.13019 10.2736 2.44064L3.11141 7.55667C2.25735 8.16674 1.75049 9.1517 1.75049 10.2013V18C1.75049 19.2426 2.75785 20.25 4.00049 20.25H6.85721C7.54757 20.25 8.10721 19.6903 8.10721 19V17.5C8.10721 16.2573 9.11457 15.25 10.3572 15.25H11.6429C12.8856 15.25 13.8929 16.2573 13.8929 17.5V19C13.8929 19.6903 14.4526 20.25 15.1429 20.25H18.0005C19.2431 20.25 20.2505 19.2426 20.2505 18V10.2014C20.2505 9.15175 19.7436 8.16675 18.8895 7.55669L11.7266 2.44061Z"
-                                    fill="#89125D" />
+                                    fill="#9F65FF" />
                             </svg>
                             Kembali ke halaman awal
                         </a>

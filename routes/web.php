@@ -8,8 +8,7 @@ use App\Http\Controllers\adminController;
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\registerController;
 use App\Http\Controllers\dashboardController;
-
-
+use Spatie\FlareClient\View;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,20 +24,34 @@ use App\Http\Controllers\dashboardController;
 
 
 Route::get('/', function () {
-    return view('home', [
+    return view('welcome', [
         "dt" => "home"
     ]);
+});
+
+Route::get('/lomba', function () {
+    return view('welcome', [
+        "dt" => "aboutus"
+    ]);
+});
+Route::get('/tes', function () {
+    return view('welcome');
 });
 
 Route::get('/home', function () {
-    return view('home', [
+    return view('welcome', [
         "dt" => "home"
     ]);
 });
 
 
-Route::get('/about', function () {
-    return view('about', [
+Route::get('/aboutus', function () {
+    return view('welcome', [
+        "dt" => "about"
+    ]);
+});
+Route::get('/competition/{name}', function () {
+    return view('welcome', [
         "dt" => "about"
     ]);
 });
@@ -54,11 +67,7 @@ Route::get('/contact', function () {
         "dt" => "contact"
     ]);
 });
-Route::get('/aboutus', function () {
-    return view('aboutus', [
-        "dt" => "aboutus"
-    ]);
-});
+
 
 Route::get('/menu/{type}', function ($type) {
     return view('menu', [

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap");
+
 body {
     margin: 0;
     padding: 0;
@@ -1185,29 +1187,29 @@ body {
 
 /* _________________________________Register & Login________________________________________ */
 
-#register .kiri img {
+/* #register .kiri img {
     width: 329px;
     margin: auto;
     align-items: center;
-}
+} */
 
 #register .kiri {
-    background-color: #211539;
+    background-color: #e1ceff;
     height: 100vh;
 }
 
 #register .kanan {
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     height: auto;
     min-height: 100vh;
 }
 
 .color-purple {
-    color: #89125d;
+    color: #9f65ff;
 }
 
 .tombol-back {
-    color: #89125d;
+    color: #9f65ff;
     font-family: Poppins;
     font-size: 10px;
     font-style: normal;
@@ -1222,11 +1224,10 @@ body {
 
 .isian h1 {
     color: #000;
-    font-family: Poppins;
+    font-family: Syne;
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 600;
 }
 
 input[type="date"] {
@@ -1262,11 +1263,12 @@ input[type="date"] {
 .isian input[type="submit"] {
     width: 100%;
     border-radius: 10px;
-    background: #89125d;
+    background: #9f65ff;
     color: white;
     padding: 14px;
     margin: 10px 0;
     border: none;
+    font-family: Inter;
     font-size: 10px;
 }
 
@@ -1315,6 +1317,88 @@ input[type="date"] {
     font-weight: 400;
 }
 
+.text-login h1 {
+    color: #000;
+    margin: 0;
+    font-family: Syne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -3.36px;
+}
+
+.text-login h1 span {
+    color: #9f65ff;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.text-login h2 {
+    color: #000;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: -2.8px;
+}
+.text-login p {
+    color: #807495;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icon-title {
+    width: 50px;
+}
+
+.planet-login-1 {
+    width: 200px;
+    bottom: -52px;
+    left: 0;
+}
+.planet-login-2 {
+    width: 190px;
+    bottom: -88px;
+    right: -74px;
+}
+.planet-login-3 {
+    width: 110px;
+    top: 20px;
+    left: 0px;
+}
+.planet-login-4 {
+    width: 90px;
+    top: 11px;
+    right: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .planet-login-1 {
+        width: 270px;
+        bottom: -30px;
+        left: -30px;
+    }
+    .planet-login-2 {
+        width: 270px;
+        bottom: -98px;
+        right: -84px;
+    }
+    .planet-login-3 {
+        width: 200px;
+        top: 20px;
+        left: 0px;
+    }
+    .planet-login-4 {
+        width: 130px;
+        top: 100px;
+        right: 50px;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .form-regis p {
         color: #000;
@@ -1342,7 +1426,7 @@ input[type="date"] {
     }
 
     .tombol-back {
-        color: #89125d;
+        color: #9f65ff;
         font-family: Poppins;
         font-size: 20px;
         font-style: normal;
@@ -1352,11 +1436,10 @@ input[type="date"] {
     }
     .isian h1 {
         color: #000;
-        font-family: Poppins;
-        font-size: 64px;
+        font-family: Syne;
+        font-size: 48px;
         font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+        font-weight: 600;
     }
     .isian input[type="text"],
     .isian input[type="password"],
@@ -1374,12 +1457,16 @@ input[type="date"] {
     .isian input[type="submit"] {
         width: 100%;
         border-radius: 10px;
-        background: #89125d;
+        background: #9f65ff;
         color: white;
         padding: 14px;
         margin: 10px 0;
         border: none;
-        font-size: 20px;
+        color: #fff;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
     }
 }
 
