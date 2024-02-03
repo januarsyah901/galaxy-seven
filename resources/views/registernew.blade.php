@@ -359,8 +359,8 @@
                             <span class="mb-1 mb-md-3 ">Nomor telepon harus diawali +62</span> <br /> --}}
 
                             <input type="submit" value="Daftar" />
-                            <p class="text-center">Sudah punya akun? <a href="{{ url('login') }}"
-                                    class="color-purple">Masuk</a></p>
+                            <p class="text-center" @disabled(true) onclick="return false;">Sudah punya
+                                akun? <a href="{{ url('login') }}" class="color-purple">Masuk</a></p>
                         </form>
                     </div>
                 </div>
