@@ -40,10 +40,10 @@
                                                             mempermudah pelacakan data, uang pendaftaran yang harus kamu
                                                             bayarkan menjadi Rp 50.021,- </li>
                                                         <li style="margin-bottom:5px;">Lakukan pembayaran melalui transfer
-                                                            ke rekening BSi - 7070000363 atas nama ma excellent lain lain
+                                                            ke rekening BSI - 7026517917 AN akselerasi pacet
                                                         <li style="margin-bottom:5px;">Setelah melakukan pembayaran, harap
                                                             lakukan konfirmasi melalui contact person <a
-                                                                href="wa.me/+6282132352327">082132352327</a></li>
+                                                                href="https://wa.me/+6282132352327">082132352327</a></li>
                                                         <li style="margin-bottom:5px;">Setelah verifikasi pembayaran maka
                                                             akan di verifikasi oleh admin dibawah ini,silahkan tunggu
                                                             maksimal 3x24 jam, jika belum silahkan hubungi admin</li>

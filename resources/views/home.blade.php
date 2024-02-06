@@ -1736,7 +1736,7 @@
                         <div class="bg-faq1 content p-3">
                             <p>
                                 kamu bisa konfirmasi bukti pembayaran transfer melalui nomor berikut ini <a
-                                    href="wa.me/6285157748815">085157748815</a>
+                                    href="https://wa.me/+6282132352327">082132352327</a>
                             </p>
                         </div>
                     </div>
@@ -1748,10 +1748,11 @@
 
                         <div class="bg-faq1 content p-3">
                             <p>
-                                kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link <a href="{{ url('register') }}">Berikut</a>
+                                kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link <a
+                                    href="{{ url('register') }}">Berikut</a>
                                 Dan lomba galaxy Non-Akademik dengan cara mengisi formulir pada link berikut
                                 <a href="https://intip.in/daftargalaxy/">https://intip.in/daftargalaxy/</a>
-                            </p>    
+                            </p>
                         </div>
                     </div>
                     <div class="tab mt-4">
