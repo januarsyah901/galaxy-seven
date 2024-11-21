@@ -15,7 +15,7 @@
                                 data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">GALAXY</h1>
                             <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5"
                                 data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">
-                                Greatest Academic in The Large Andromeda In X-tion of Creativity
+                                Greatestt Academic in The Large Andromeda In X-tion of Creativity
                             </p>
                             <br><br>
                             <a href="about" class="btn btn-primary" data-animation-out="fadeOutRight"
