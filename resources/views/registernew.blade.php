@@ -1,146 +1,3 @@
-<form style="display: none" action="{{ url('register') }}" method="post" enctype="multipart/form-data">
-    @csrf
-
-    <!-- Nama input -->
-    <div class="form-floating">
-        <input type="nama" name="nama" class="form-control @error('nama') is-invalid @enderror" id="nama "
-            placeholder="Astro" autofocus required value="{{ old('nama') }}">
-        <label for="nama">
-            <p>Nama</p>
-        </label>
-        @error('nama')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-    <!-- Nomor hp input -->
-    <div class="form-floating">
-        <input type="telp" name="telp" class="form-control @error('telp') is-invalid @enderror" id="telp "
-            placeholder="08..." autofocus required value="{{ old('telp') }}">
-        <label for="telp">
-            <p> Nomor telpon</p>
-        </label>
-        @error('telp')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-    <!-- NISN input -->
-    <div class="form-floating">
-        <input type="nisn" name="nisn" class="form-control @error('nisn') is-invalid @enderror" id="nisn "
-            placeholder="nisn" autofocus required value="{{ old('nisn') }}" maxlength="10">
-        <label for="nisn">
-            <p>nisn</p>
-        </label>
-        @error('nisn')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-    <!-- Sekolah input -->
-    <div class="form-floating">
-        <input type="sekolah" name="sekolah" class="form-control @error('sekolah') is-invalid @enderror" id="sekolah "
-            placeholder="sekolah" autofocus required value="{{ old('sekolah') }}">
-        <label for="sekolah">
-            <p> Asal sekolah</p>
-        </label>
-        @error('sekolah')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-    <!-- Email input -->
-    <div class="form-floating">
-        <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email "
-            placeholder="name@example.com" autofocus required value="{{ old('email') }}">
-        <label for="email">Email address</label>
-        @error('email')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-
-    <!-- Password input -->
-    <div class="form-floating">
-        <input type="password" name="password" class="form-control @error('password') is-invalid @enderror"
-            id="password" placeholder="Password" required>
-        <label for="password">Password</label>
-    </div>
-    <div class="form-floating">
-        <label for="password_confirmation">Konfirmasi</label>
-        <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required>
-        @if ($errors->has('password'))
-            <div class="alert alert-danger">{{ $errors->first('password') }}</div>
-        @endif
-    </div>
-    <div class="form-radio">
-        <p class="mb-0">pilih jenis kelamin</p>
-        <label>
-            <input type="radio" class="option-input radio" name="jk" value="laki-laki" checked />
-            Laki-laki
-        </label>
-        <label>
-            <input type="radio" class="option-input radio" name="jk" value="perempuan" />
-            Perempuan
-        </label>
-    </div>
-    <div class="mb-3">
-        <label for="image"
-            class="form-label @error('image')
-                                        is-invalid
-                                    @enderror">Upload
-            bukti twibbon</label>
-        <input class="form-control" type="file" id="image" name="image">
-        @error('image')
-            <div class="invalid-feedback">
-                {{ $message }}
-            </div>
-        @enderror
-    </div>
-    <div class="form-radio">
-        <p class="mb-0">pilih jenis kompetisi</p>
-        <label>
-            <input type="radio" class="option-input radio" name="type" value="mipa" checked />
-            Olimpiade MIPA
-        </label>
-        <label>
-            <input type="radio" class="option-input radio" name="type" value="pai" />
-            Olimpiade PAI
-        </label>
-        <br>
-        <label class="mt-1">
-            <input type="radio" class="option-input radio" name="type" value="ips" />
-            Olimpiade IPS
-        </label>
-        <label>
-            <input type="radio" class="option-input radio" name="type" value="inggris" />
-            Olimpiade Bahasa Inggris
-        </label>
-
-    </div>
-
-
-    <!-- Submit button -->
-    <div class="text-center mt-1 form-radio">
-        <button type="submit" class="btn btn-primary btn-block mb- rounded-3">
-            Daftar
-        </button>
-
-    </div>
-
-    <!-- Register buttons -->
-    <div class="text-center">
-        <p>Sudah punya akun? <a href="{{ url('login') }}">Login</a></p>
-    </div>
-
-</form>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -230,8 +87,7 @@
                                 </label>
                                 <input type="text" name="nisn"
                                     class="form-control @error('nisn') is-invalid @enderror" id="nisn "
-                                    placeholder="nisn" autofocus required value="{{ old('nisn') }}"
-                                    maxlength="10">
+                                    placeholder="nisn" autofocus required value="{{ old('nisn') }}" maxlength="10">
                                 @error('nisn')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -308,7 +164,7 @@
                                 <input class="form-control" type="file" id="image" name="image">
 
                                 <span class="mt-4"> Link twibbon bisa diakses di web berikut ini : <a
-                                        href="https://twb.nz/galaxyolimp">https://twb.nz/galaxyolimp</a></span>
+                                        href="https://twibbo.nz/galaxymai2025">https://twibbo.nz/galaxymai2025</a></span>
                                 @error('image')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -320,7 +176,12 @@
                                 <label>
                                     <input type="radio" class="option-input radio" name="type" value="mipa"
                                         checked />
-                                    Olimpiade MIPA
+                                    Olimpiade IPA
+                                </label>
+                                <label>
+                                    <input type="radio" class="option-input radio" name="type" value="mtk"
+                                        checked />
+                                    Olimpiade MTK
                                 </label>
                                 <label>
                                     <input type="radio" class="option-input radio" name="type"

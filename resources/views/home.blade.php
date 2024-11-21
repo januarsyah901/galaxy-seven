@@ -172,65 +172,85 @@
                                             Pendaftaran akademik
                                         </h5>
                                         <li>
-                                            1 Desember 2023 – 29 Januari 2024
+                                            23 November 2024 – 15 Januari 2025
                                         </li>
                                         <h5>
                                             Pendaftaran non akademik
                                         </h5>
                                         <li>
-                                            1 desember 2023 – 20 januari 2024
+                                            23 November 2024 - 31 Desember 2024
                                         </li>
                                         <h5>
-                                            Penyisihan
+                                            Pengumpulan multimedia
                                         </h5>
                                         <li>
-                                            3 Februari 2024 – 4 Februari 2024
+                                            1 Januari – 12 Januari 2025
                                         </li>
                                         <h5>
-                                            Pengumuman penyisihan
+                                            TM penyisihan awal
                                         </h5>
                                         <li>
-                                            6 Februari 2024
+                                            18 Januari 2025
                                         </li>
                                         <h5>
-                                            Pembayaran
+                                            Penyisihan awal (online)
                                         </h5>
                                         <li>
-                                            7 Februari -13 Februari 2024
+                                            19 Januari 2025
                                         </li>
                                         <h5>
-                                            Pengumpulan karya non akademik online
+                                            Pengumuman lolos penyisihan awal
                                         </h5>
                                         <li>
-                                            23 Januari – 25 Februari 2024
+                                            21 Januari 2025
                                         </li>
                                         <h5>
-                                            Pengumuman karya non akademik
+                                            Pembayaran peserta yang lolos penyisihan awal
                                         </h5>
                                         <li>
-                                            26 januari 2024
+                                            21 Januari – 31 Januari 2025
                                         </li>
                                         <h5>
-                                            Quarter final online
+                                            TM quarter final
                                         </h5>
                                         <li>
-
-                                            17 Febuari- 18 Februari 2024
+                                            1 Februari 2025
                                         </li>
                                         <h5>
-
-                                            Pengumuman quarter final
+                                            Pelaksanaan quarter final
                                         </h5>
                                         <li>
-
-                                            20 Febuari 2024
+                                            2 Februari 2025
                                         </li>
                                         <h5>
-                                            Semifinal + final
+                                            Pengumuman hasil quarter final
                                         </h5>
                                         <li>
-
-                                            25 Febuari 2024
+                                            3 Februari 2025
+                                        </li>
+                                        <h5>
+                                            TM Alur Kedatangan peserta semifinal dan final
+                                        </h5>
+                                        <li>
+                                            4 Februari 2025
+                                        </li>
+                                        <h5>
+                                            Khotmil Qur'an
+                                        </h5>
+                                        <li>
+                                            7 Februari 2025
+                                        </li>
+                                        <h5>
+                                            Penyisihan offline internal + seminar
+                                        </h5>
+                                        <li>
+                                            8 Februari 2025
+                                        </li>
+                                        <h5>
+                                            Semifinal dan final internal & eksternal + malam puncak
+                                        </h5>
+                                        <li>
+                                            9 Februari 2025
                                         </li>
                                     </ul>
                                     <a href="" class="btn btn-light"></a>
@@ -284,12 +304,13 @@
             </div>
 
             <div class="row mt-5 justify-content-center">
+                {{-- IPA --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/mipa.png') }}"
                             alt="" />
                         <div class="mx-4 mt-3">
-                            <h1>Mipa</h1>
+                            <h1>IPA</h1>
                             <div class="d-flex justify-content-between mt-5 pb-3">
                                 <h2 class="my-auto">Akademik</h2>
                                 <div>
@@ -325,20 +346,22 @@
                                                                     alt="" class="gambar-modal w-100" />
                                                             </div>
                                                             <div class="col-lg-6 bg-pink text-dark p-3 isi-modal">
-                                                                <h1>Mipa</h1>
+                                                                <h1>IPA</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    MIPA adalah Matematika dan Ilmu Pengetahuan Alam atau
-                                                                    Matematika dan Ilmu Alam
-                                                                    (disingkat MIPA atau MIA) adalah gabungan ilmu yang
-                                                                    mempelajari matematika dan
-                                                                    ilmu alam (biologi, fisika,)
-                                                                    Oleh karena itu tujuan diselenggarakan olimpiade GALAXY
-                                                                    7.0 ini untuk menjaring
-                                                                    smp/mts
-                                                                    Yang mempunyai dalam bidang studi Matematika dan IPAa
-                                                                    serta membangun semangat
-                                                                    berkompetisi di kalangan siswa smp dan mts
+                                                                    Ilmu Pengetahuan Alam (IPA) merupakan salah satu
+                                                                    komponen penting dalam kurikulum pendidikan yang
+                                                                    bertujuan untuk memberikan pemahaman tentang berbagai
+                                                                    fenomena alam dan prinsip-prinsip ilmiah yang
+                                                                    mendasarinya. IPA mencakup berbagai aspek, seperti
+                                                                    fisika, biologi, dan kimia, yang saling terintegrasi
+                                                                    untuk membantu siswa memahami dunia di sekitar mereka.
+                                                                    Event ini tidak hanya menjadi ajang untuk menguji
+                                                                    kemampuan dan kecerdasan peserta, tetapi juga sebagai
+                                                                    platform untuk menggali potensi kreativitas siswa/i.
+                                                                    Oleh karena itu tujuan diselenggarakan olimpiade IPA
+                                                                    yang diadakan GALAXY 8.0 untuk menjaring siswa/I SMP/MTs
+                                                                    Sederajat Yang mempunyai bakat dalam bidang
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -361,7 +384,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -501,7 +524,225 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-4 mt-3">
+                    <div class="lomba-block">
+                        <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/matematika.png') }}"
+                            alt="" />
+                        <div class="mx-4 mt-3">
+                            <h1>Matematika</h1>
+                            <div class="d-flex justify-content-between mt-5 pb-3">
+                                <h2 class="my-auto">Akademik</h2>
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                        data-bs-target="#modalLombamatematika">Detail</button>
 
+                                    <!-- Modal -->
+                                    <div class="modal modal-xl fade" id="modalLombamatematika" tabindex="-1"
+                                        aria-labelledby="modalLomba1Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div
+                                                    class="modal-header d-flex justify-content-between align-content-center mx-3">
+                                                    <nav aria-label="breadcrumb" class="d-block m-0 mt-3">
+                                                        <ol class="breadcrumb">
+                                                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                                            <li class="breadcrumb-item active" aria-current="page"><a
+                                                                    href=""> Data</a></li>
+                                                        </ol>
+                                                    </nav>
+
+                                                    <button type="button" class="btn-close d-block"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 text-white p-3">
+                                                                <!-- Left side content goes here -->
+                                                                <img src="{{ url('assets/images/lomba/matematika.png') }}"
+                                                                    alt="" class="gambar-modal w-100" />
+                                                            </div>
+                                                            <div class="col-lg-6 bg-pink text-dark p-3 isi-modal">
+                                                                <h1>Matematika</h1>
+                                                                <h2>Deskripsi :</h2>
+                                                                <p>
+                                                                    Matematika adalah fondasi penting dalam perkembangan
+                                                                    ilmu pengetahuan, perannya semakin terlihat jelas dalam
+                                                                    berbagai kompetisi akademik, termasuk Olimpiade
+                                                                    Matematika. Event ini tidak hanya menjadi ajang untuk
+                                                                    menguji kemampuan dan kecerdasan peserta, tetapi juga
+                                                                    sebagai platform untuk menggali potensi kreativitas
+                                                                    siswa/i. Oleh karena itu tujuan diselenggarakan
+                                                                    olimpiade Matemtika yang diadakan GALAXY 8.0 untuk
+                                                                    menjaring siswa/I SMP/MTs Sederajat Yang mempunyai bakat
+                                                                    dalam bidang studi Matematika yang diharapkan dapat
+                                                                    membangun semangat berkompetisi dikalangan siswa smp dan
+                                                                    mts
+                                                                </p>
+                                                                <h2>Informasi :</h2>
+                                                                <div
+                                                                    class="d-flex justify-content-between pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="d-flex align-content-center">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="45" height="45"
+                                                                            viewBox="0 0 45 45" fill="none">
+                                                                            <path
+                                                                                d="M17.25 12H16.2003C14.7301 12 13.9945 12 13.433 12.2861C12.9391 12.5378 12.5378 12.9391 12.2861 13.433C12 13.9945 12 14.7301 12 16.2003V28.8003C12 30.2704 12 31.0051 12.2861 31.5666C12.5378 32.0605 12.9391 32.4625 13.433 32.7142C13.994 33 14.7287 33 16.1959 33H17.25M17.25 12H28.8003C30.2704 12 31.0044 12 31.566 12.2861C32.0599 12.5378 32.4625 12.9391 32.7142 13.433C33 13.994 33 14.7287 33 16.1959V28.8047C33 30.272 33 31.0056 32.7142 31.5666C32.4625 32.0605 32.0599 32.4625 31.566 32.7142C31.005 33 30.2713 33 28.8041 33H17.25M17.25 12V33M22.5 21.1875H27.75M22.5 17.25H27.75"
+                                                                                stroke="#790C61" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <circle cx="22.5" cy="22.5" r="21.5"
+                                                                                stroke="#780D60" stroke-width="2" />
+                                                                        </svg>
+                                                                        <h2
+                                                                            class="m-0 mx-2 my-2 d-flex align-items-center">
+                                                                            Guidebook</h2>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <a style="text-decoration: none"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="">
+                                                                        <h2 class="m-0 my-1">HTM</h2>
+                                                                        <h1>FREE</h1>
+                                                                        @auth
+                                                                            <h2>
+                                                                                Sudah mengikuti
+                                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                    width="20" height="20"
+                                                                                    viewBox="0 0 20 20" fill="none">
+                                                                                    <path
+                                                                                        d="M13 8L9 12L7 10M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19Z"
+                                                                                        stroke="#7A0D62" stroke-width="2"
+                                                                                        stroke-linecap="round"
+                                                                                        stroke-linejoin="round" />
+                                                                                </svg>
+                                                                            </h2>
+                                                                        @endauth
+                                                                    </div>
+
+                                                                    <div class="my-auto">
+                                                                        @auth
+                                                                        @else
+                                                                            <a style="text-decoration: none"
+                                                                                href="{{ url('register') }}"
+                                                                                class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
+                                                                                Lomba</a>
+                                                                        @endauth
+                                                                    </div>
+                                                                </div>
+
+                                                                @auth
+
+
+                                                                    <h2>Pengerjaan :</h2>
+                                                                    <p>
+                                                                        nantinya link pengerjaan akan tampil di bawah ini
+                                                                    </p>
+
+                                                                    <style>
+                                                                        .countdown {
+                                                                            display: flex;
+                                                                            justify-content: space-around;
+                                                                            margin-top: 50px;
+                                                                        }
+
+                                                                        .countdown div {
+                                                                            text-align: center;
+                                                                        }
+                                                                    </style>
+
+                                                                    <div class="container mb-5">
+                                                                        <div id="countdown" class="countdown">
+                                                                            <div><span class="days">00</span><br />Hari</div>
+                                                                            <div><span class="hours">00</span><br />Jam</div>
+                                                                            <div><span class="minutes">00</span><br />Menit
+                                                                            </div>
+                                                                            <div><span class="seconds">00</span><br />Detik
+                                                                            </div>
+
+                                                                            <script>
+                                                                                // Menentukan tanggal dan waktu target
+                                                                                var targetDate = new Date("Jan 13, 2024 08:59:59").getTime();
+
+                                                                                // Membuat fungsi yang akan dijalankan setiap detik
+                                                                                var countdown = setInterval(function() {
+                                                                                    // console.log("test('should first', () => { second })");
+                                                                                    // Mendapatkan tanggal dan waktu saat ini
+                                                                                    var currentDate = new Date().getTime();
+
+                                                                                    // Menghitung selisih antara target dan saat ini dalam milidetik
+                                                                                    var difference = targetDate - currentDate;
+
+                                                                                    // Mengkonversi selisih dalam hari, jam, menit, dan detik
+                                                                                    var days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                                                                                    var hours = Math.floor(
+                                                                                        (difference % (1000 * 60 * 60 * 24)) /
+                                                                                        (1000 * 60 * 60)
+                                                                                    );
+                                                                                    var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                                                                                    var seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                                                                                    document.querySelector(".days").innerHTML = days;
+                                                                                    document.querySelector(".hours").innerHTML = hours;
+                                                                                    document.querySelector(".minutes").innerHTML = minutes;
+                                                                                    document.querySelector(".seconds").innerHTML = seconds;
+
+                                                                                    // console.log(seconds);
+
+                                                                                    // Menampilkan hasil dalam elemen HTML dengan id="countdown"
+                                                                                    // document.querySelector("countdown").innerHTML = days + " hari " + hours + " jam " +
+                                                                                    //     minutes + " menit " + seconds + " detik ";
+
+                                                                                    // Jika selisih kurang dari atau sama dengan nol, berhenti menghitung dan tampilkan pesan
+                                                                                    if (difference <= 0) {
+                                                                                        clearInterval(countdown);
+                                                                                        document.querySelector(".countdown").innerHTML = "Daftar";
+                                                                                    }
+                                                                                }, 1000);
+                                                                            </script>
+
+
+                                                                            <svg class="my-auto"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="49" height="49"
+                                                                                viewBox="0 0 49 49" fill="none">
+                                                                                <path
+                                                                                    d="M24.4955 14.5V27H36.9929M47 8.42788L39.3411 2M9.6589 2L2 8.42788M24.4955 47C13.452 47 4.4995 38.0457 4.4995 27C4.4995 15.9543 13.452 7 24.4955 7C35.5389 7 44.4914 15.9543 44.4914 27C44.4914 38.0457 35.5389 47 24.4955 47Z"
+                                                                                    stroke="#790C61" stroke-width="4"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </div>
+
+                                                                        <br />
+                                                                        {{-- <button
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button>
+                                                                        <button
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
+                                                                    </div>
+                                                                @endauth
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- IPS --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/ips.png') }}"
@@ -546,15 +787,17 @@
                                                                 <h1>IPS</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    IPS atau ilmu pengatahuan social adalah ilmu yang
-                                                                    mempelajari pengetahuan social
-                                                                    (sejarah,kewarganegaraan, ekonomi). Oleh karena itu
-                                                                    tujuan diselenggarakan nya
-                                                                    olimpiade galaxy 7.0 ini untuk menjaring siswa smp dan
-                                                                    mts yang mempunyai potensi
-                                                                    dalam bidang studi pengetahuan social serta membangun
-                                                                    semangat berkompetisi di
-                                                                    kalanagn murid smp dan mts
+                                                                    ilmu pengatahuan sosial (IPS) adalah bidang studi yang
+                                                                    mempelajari interaksi antara manusia dan lingkungan
+                                                                    sosial, budaya, serta ekonomi. Event ini tidak hanya
+                                                                    menjadi ajang untuk menguji kemampuan dan kecerdasan
+                                                                    peserta, tetapi juga sebagai platform untuk menggali
+                                                                    potensi kreativitas siswa/i. Oleh karena itu tujuan
+                                                                    diselenggarakan olimpiade Matemtika yang diadakan GALAXY
+                                                                    8.0 untuk menjaring siswa/I SMP/MTs Sederajat Yang
+                                                                    mempunyai bakat dalam bidang studi Matematika yang
+                                                                    diharapkan dapat membangun semangat berkompetisi
+                                                                    dikalangan siswa smp dan mts
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -577,7 +820,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -716,6 +959,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Bahasa Ingris --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/inggris.png') }}"
@@ -760,18 +1004,19 @@
                                                                 <h1>Bahasa Inggris</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    BHS INGGRIS adalah bahasa jermanik yang pertama kali
-                                                                    ditutur kan di inggris pada
-                                                                    abad pertengahan awal dan saat ini merupakak bahasa yang
-                                                                    umum yang digunakan di
-                                                                    seluruh dunia.
-                                                                    Oleh sebab itu galaxy 7.0 mengadakan lomba bahasa
-                                                                    inggis, kami berharap dengan
-                                                                    diadakan lomba ini dapat meningkatkan keinginan
-                                                                    siswa/siswi smp/mts sederajat
-                                                                    mampubersaing dalam segi bahasa internasional dan
-                                                                    meningkatkan komunikasi antar
-                                                                    negara yang berguana untuk bangsa
+                                                                    merupakan ajang yang dirancang untuk menguji dan
+                                                                    mengembangkan keterampilan bahasa siswa dalam berbagai
+                                                                    aspek, termasuk mendengarkan, membaca, dan menulis.
+                                                                    Kegiatan ini bertujuan untuk mendorong siswa untuk
+                                                                    berpikir kritis. Event ini tidak hanya menjadi ajang
+                                                                    untuk menguji kemampuan dan kecerdasan peserta, tetapi
+                                                                    juga sebagai platform untuk menggali potensi kreativitas
+                                                                    siswa/i. Oleh karena itu tujuan diselenggarakan
+                                                                    olimpiade B Inggris yang diadakan GALAXY 8.0 untuk
+                                                                    menjaring siswa/I SMP/MTs Sederajat Yang mempunyai bakat
+                                                                    dalam bidang studi B Inggris yang diharapkan dapat
+                                                                    membangun semangat berkompetisi dikalangan siswa smp dan
+                                                                    mts
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -794,7 +1039,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -932,6 +1177,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- PAI --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/pai.png') }}"
@@ -976,19 +1222,20 @@
                                                                 <h1>PAI</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    PAI atau pendidikan agama islam adalah upaya sadar dan
-                                                                    terancam dalam menyiapkan
-                                                                    peserta didik mengenal, memahami, menghayati, mengimani,
-                                                                    bertakwa, berakhlak
-                                                                    mulia, mengamalkan ajaran islam dari sumber utama nya
-                                                                    kitab suci al-quran dan hadist.
-                                                                    Melalui kegiatan pengajaran, latiahan, serta penggunaan
-                                                                    pengalaman. Oleh karena itu
-                                                                    di galaxy 7.0 ini mengadakan olimpiade dalam bidang
-                                                                    pendidikan agama islam agar para
-                                                                    generasi penerus bangsa dapat mencetak bibit dengan
-                                                                    tetap memandang penting nya
-                                                                    pendidikan agama islam.
+                                                                    Mata pelajaran Pendidikan Agama Islam (PAI) bertujuan
+                                                                    untuk membentuk karakter dan akhlak siswa melalui
+                                                                    pemahaman ajaran Islam yang komprehensif. PAI tidak
+                                                                    hanya mengajarkan pengetahuan tentang agama, tetapi juga
+                                                                    menanamkan nilai-nilai moral dan spiritual yang penting
+                                                                    dalam kehidupan sehari-hari. Event ini tidak hanya
+                                                                    menjadi ajang untuk menguji kemampuan dan kecerdasan
+                                                                    peserta, tetapi juga sebagai platform untuk menggali
+                                                                    potensi kreativitas siswa/i. Oleh karena itu tujuan
+                                                                    diselenggarakan olimpiade PAI yang diadakan GALAXY 8.0
+                                                                    untuk menjaring siswa/I SMP/MTs Sederajat Yang mempunyai
+                                                                    bakat dalam bidang studi IPA yang diharapkan dapat
+                                                                    membangun semangat berkompetisi dikalangan siswa smp dan
+                                                                    mts
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -1011,7 +1258,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -1150,6 +1397,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Poster --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/poster.png') }}"
@@ -1194,16 +1442,16 @@
                                                                 <h1>Poster</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    Poster adalah media informasi untuk mengkomunikasikan
-                                                                    suatu pesan,baik
-                                                                    dalam konteks mempersuasikan pesan social,kultur, dan
-                                                                    edukasi maupun
-                                                                    mempromosikan produk berupa barang dan jasa
-                                                                    Oleh karena itu tujuan diselenggarakan lomba GALAXY 7.0
-                                                                    ini untuk menjaring smp/mts
-                                                                    Yang mempunyai bakat di dalam bidang desain serta
-                                                                    membangun semangat
-                                                                    berkompetisi di kalangan siswa smp dan mts
+                                                                    Poster adalah media visual yang dirancang untuk
+                                                                    menyampaikan informasi, pesan, atau promosi dalam bentuk
+                                                                    gambar dan teks. Biasanya, poster digunakan untuk
+                                                                    menarik perhatian dan menyampaikan ide dengan cara yang
+                                                                    cepat dan jelas. . Event ini tidak hanya menjadi ajang
+                                                                    untuk menguji kemampuan dan kecerdasan peserta, tetapi
+                                                                    juga sebagai platform untuk menggali potensi kreativitas
+                                                                    siswa/i. Oleh karena itu tujuan diselenggarakan lomba
+                                                                    fotografi yang diadakan GALAXY 8.0 untuk menjaring
+                                                                    siswa/I SMP/MTs
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -1226,7 +1474,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -1306,7 +1554,7 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy/"
+                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 
@@ -1324,6 +1572,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Fotografi --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/fotografi.png') }}"
@@ -1368,20 +1617,15 @@
                                                                 <h1>Fotografi</h1>
                                                                 <h2>Deskripsi :</h2>
                                                                 <p>
-                                                                    FOTOGRAFI adalah proses melukis/menulis dengan
-                                                                    mengguanakan media
-                                                                    cahaya. Sebagai istilah umum, fotografi berarti proses
-                                                                    atau metode untuk
-                                                                    menghasilkan gambar atau foto dari suatu objek tersebut
-                                                                    pada media yang
-                                                                    peka cahaya. Alat paling populer untuk menangkap cahaya
-                                                                    ini adalah
-                                                                    kamera
-                                                                    Oleh karena itu tujuan diselenggarakan lomba GALAXY 7.0
-                                                                    ini untuk menjaring smp/mts
-                                                                    Yang mempunyai bakat di dalam bidang fotografi serta
-                                                                    membangun semangat
-                                                                    berkompetisi di kalangan siswa smp dan mts
+                                                                    Fotografi adalah seni dan teknik pengambilan gambar
+                                                                    menggunakan kamera. Secara umum, fotografi melibatkan
+                                                                    proses menangkap cahaya untuk menciptakan gambar yang
+                                                                    dapat menyampaikan informasi, cerita, atau emosi. Event
+                                                                    ini tidak hanya menjadi ajang untuk menguji kemampuan
+                                                                    dan kecerdasan peserta, tetapi juga sebagai platform
+                                                                    untuk menggali potensi kreativitas siswa/i. Oleh karena
+                                                                    itu tujuan diselenggarakan lomba fotografi yang diadakan
+                                                                    GALAXY 8.0 untuk menjaring siswa/I SMP/MTs
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -1404,7 +1648,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -1484,7 +1728,7 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy/"
+                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 
@@ -1502,12 +1746,13 @@
                         </div>
                     </div>
                 </div>
+                {{-- Video sains --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
-                        <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/pidato.png') }}"
+                        <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/vidio sains.webp') }}"
                             alt="" />
                         <div class="mx-4 mt-3">
-                            <h1>Pidato</h1>
+                            <h1>Video Sains</h1>
                             <div class="d-flex justify-content-between mt-5 pb-3">
                                 <h2 class="my-auto">Non-Akademik</h2>
                                 <div>
@@ -1543,19 +1788,18 @@
                                                                     alt="" class="gambar-modal w-100" />
                                                             </div>
                                                             <div class="col-lg-6 bg-pink text-dark p-3 isi-modal">
-                                                                <h1>Pidato</h1>
+                                                                <h1>Video Sains</h1>
                                                                 <h2>Deskripsi :</h2>
-                                                                <p>
-                                                                    adalah sebuah pengungkapan pikiran ke dalam bentuk
-                                                                    kata-kata. Pidato
-                                                                    ditujukan kepada orang banyak. Selain itu, pidato adalah
-                                                                    wacana yang disiapkan
-                                                                    untuk diucapkan di depan khalayak.
-                                                                    Oleh karena itu tujuan diselenggarakan lomba GALAXY 7.0
-                                                                    ini untuk menjaring smp/mts
-                                                                    Yang mempunyai bakat di dalam bidang public speaking
-                                                                    serta membangun semangat
-                                                                    berkompetisi di kalangan siswa smp dan mts
+                                                                <p>Video sains adalah konten visual yang mengedukasi
+                                                                    penonton tentang konsep-konsep ilmiah. Biasanya mencakup
+                                                                    eksperimen, animasi, dan penjelasan naratif yang membuat
+                                                                    topik seperti fisika, kimia, atau biologi lebih mudah
+                                                                    dipahami. Event ini tidak hanya menjadi ajang untuk
+                                                                    menguji kemampuan dan kecerdasan peserta, tetapi juga
+                                                                    sebagai platform untuk menggali potensi kreativitas
+                                                                    siswa/i. Oleh karena itu tujuan diselenggarakan lomba
+                                                                    fotografi yang diadakan GALAXY 8.0 untuk menjaring
+                                                                    siswa/I SMP/MTs
                                                                 </p>
                                                                 <h2>Informasi :</h2>
                                                                 <div
@@ -1578,7 +1822,7 @@
                                                                     </div>
                                                                     <div class="d-flex">
                                                                         <a style="text-decoration: none"
-                                                                            href="https://intip.in/kebutuhanpesertagalaxy/"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
                                                                     </div>
                                                                 </div>
@@ -1587,7 +1831,7 @@
                                                                     class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
                                                                     <div class="">
                                                                         <h2 class="m-0 my-1">HTM</h2>
-                                                                        <h1>40K</h1>
+                                                                        <h1>30K</h1>
                                                                         @auth
                                                                             <h2>
                                                                                 Sudah mengikuti
@@ -1658,7 +1902,357 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy/"
+                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
+                                                                    </div>
+
+                                                                @endauth
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- Banjari --}}
+                <div class="col-lg-3 col-md-4 mt-3">
+                    <div class="lomba-block">
+                        <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/banjari.png') }}"
+                            alt="" />
+                        <div class="mx-4 mt-3">
+                            <h1>Banjari</h1>
+                            <div class="d-flex justify-content-between mt-5 pb-3">
+                                <h2 class="my-auto">Non-Akademik</h2>
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                        data-bs-target="#banjari">Detail</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal modal-xl fade" id="banjari" tabindex="-1"
+                                        aria-labelledby="modalLomba1Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div
+                                                    class="modal-header d-flex justify-content-between align-content-center mx-3">
+                                                    <nav aria-label="breadcrumb" class="d-block m-0 mt-3">
+                                                        <ol class="breadcrumb">
+                                                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                                            <li class="breadcrumb-item active" aria-current="page"><a
+                                                                    href=""> Data</a></li>
+                                                        </ol>
+                                                    </nav>
+
+                                                    <button type="button" class="btn-close d-block"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 text-white p-3">
+                                                                <!-- Left side content goes here -->
+                                                                <img src="{{ url('assets/images/lomba/banjari.png') }}"
+                                                                    alt="" class="gambar-modal w-100" />
+                                                            </div>
+                                                            <div class="col-lg-6 bg-pink text-dark p-3 isi-modal">
+                                                                <h1>Banjari</h1>
+                                                                <h2>Deskripsi :</h2>
+                                                                <p>Banjari adalah sebuah tradisi musik yang sering ditemui
+                                                                    dalam budaya Islam, khususnya di Indonesia, yang
+                                                                    digunakan dalam berbagai acara keagamaan dan perayaan
+                                                                    Islam. Musik banjari ini biasanya dimainkan dengan
+                                                                    instrumen tradisional seperti rebana, tambur, dan
+                                                                    kadang-kadang juga drum, yang menghasilkan irama khas
+                                                                    yang menyatu dengan lirik lagu-lagu yang memuji Nabi
+                                                                    Muhammad SAW atau berisi doa dan pujian kepada Allah.
+                                                                    Selain itu, banjari Islam juga menjadi sarana untuk
+                                                                    mempererat tali persaudaraan di kalangan umat Muslim,
+                                                                    karena sering dimainkan dalam kebersamaan dan kekompakan
+                                                                    antarjamaah. Event ini tidak hanya menjadi ajang untuk
+                                                                    menguji kemampuan, tetapi juga sebagai platform untuk
+                                                                    menggali potensi kreativitas siswa/i. Oleh karena itu
+                                                                    tujuan diselenggarakan lomba Banjari yang diadakan
+                                                                    GALAXY 8.0 untuk menjaring siswa/I SMP/MTs sedaraja
+                                                                </p>
+                                                                <h2>Informasi :</h2>
+                                                                <div
+                                                                    class="d-flex justify-content-between pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="d-flex align-content-center">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="45" height="45"
+                                                                            viewBox="0 0 45 45" fill="none">
+                                                                            <path
+                                                                                d="M17.25 12H16.2003C14.7301 12 13.9945 12 13.433 12.2861C12.9391 12.5378 12.5378 12.9391 12.2861 13.433C12 13.9945 12 14.7301 12 16.2003V28.8003C12 30.2704 12 31.0051 12.2861 31.5666C12.5378 32.0605 12.9391 32.4625 13.433 32.7142C13.994 33 14.7287 33 16.1959 33H17.25M17.25 12H28.8003C30.2704 12 31.0044 12 31.566 12.2861C32.0599 12.5378 32.4625 12.9391 32.7142 13.433C33 13.994 33 14.7287 33 16.1959V28.8047C33 30.272 33 31.0056 32.7142 31.5666C32.4625 32.0605 32.0599 32.4625 31.566 32.7142C31.005 33 30.2713 33 28.8041 33H17.25M17.25 12V33M22.5 21.1875H27.75M22.5 17.25H27.75"
+                                                                                stroke="#790C61" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <circle cx="22.5" cy="22.5" r="21.5"
+                                                                                stroke="#780D60" stroke-width="2" />
+                                                                        </svg>
+                                                                        <h2
+                                                                            class="m-0 mx-2 my-2 d-flex align-items-center">
+                                                                            Guidebook</h2>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <a style="text-decoration: none"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="">
+                                                                        <h2 class="m-0 my-1">HTM</h2>
+                                                                        <h1>100K</h1>
+                                                                        @auth
+                                                                            <h2>
+                                                                                Sudah mengikuti
+                                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                    width="20" height="20"
+                                                                                    viewBox="0 0 20 20" fill="none">
+                                                                                    <path
+                                                                                        d="M13 8L9 12L7 10M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19Z"
+                                                                                        stroke="#7A0D62" stroke-width="2"
+                                                                                        stroke-linecap="round"
+                                                                                        stroke-linejoin="round" />
+                                                                                </svg>
+                                                                            </h2>
+                                                                        @endauth
+                                                                    </div>
+
+                                                                    <div class="my-auto">
+                                                                        @auth
+                                                                        @else
+                                                                            <a style="text-decoration: none"
+                                                                                href="https://intip.in/daftarbanjarigalaxy"
+                                                                                class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
+                                                                                Lomba</a>
+                                                                        @endauth
+                                                                    </div>
+                                                                </div>
+
+                                                                @auth
+
+
+                                                                    <h2>Pengerjaan :</h2>
+                                                                    <p>
+
+                                                                    </p>
+
+                                                                    <style>
+                                                                        .countdown {
+                                                                            display: flex;
+                                                                            justify-content: space-around;
+                                                                            margin-top: 50px;
+                                                                        }
+
+                                                                        .countdown div {
+                                                                            text-align: center;
+                                                                        }
+                                                                    </style>
+
+                                                                    <div class="container mb-5">
+                                                                        {{-- <div id="countdown" class="countdown">
+                                                                            <div><span id="days">15</span><br />Hari</div>
+                                                                            <div><span id="hours">15</span><br />Jam</div>
+                                                                            <div><span id="minutes">15</span><br />Menit
+                                                                            </div>
+                                                                            <div><span id="seconds">15</span><br />Detik
+                                                                            </div>
+                                                                            <svg class="my-auto"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="49" height="49"
+                                                                                viewBox="0 0 49 49" fill="none">
+                                                                                <path
+                                                                                    d="M24.4955 14.5V27H36.9929M47 8.42788L39.3411 2M9.6589 2L2 8.42788M24.4955 47C13.452 47 4.4995 38.0457 4.4995 27C4.4995 15.9543 13.452 7 24.4955 7C35.5389 7 44.4914 15.9543 44.4914 27C44.4914 38.0457 35.5389 47 24.4955 47Z"
+                                                                                    stroke="#790C61" stroke-width="4"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </div> --}}
+
+                                                                        <br />
+                                                                        {{-- <button
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
+                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
+                                                                    </div>
+
+                                                                @endauth
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- MTQ --}}
+                <div class="col-lg-3 col-md-4 mt-3">
+                    <div class="lomba-block">
+                        <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/qiroah.png') }}"
+                            alt="" />
+                        <div class="mx-4 mt-3">
+                            <h1>MTQ</h1>
+                            <div class="d-flex justify-content-between mt-5 pb-3">
+                                <h2 class="my-auto">Non-Akademik</h2>
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                        data-bs-target="#MTQ">Detail</button>
+
+                                    <!-- Modal -->
+                                    <div class="modal modal-xl fade" id="MTQ" tabindex="-1"
+                                        aria-labelledby="modalLomba1Label" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+                                            <div class="modal-content">
+                                                <div
+                                                    class="modal-header d-flex justify-content-between align-content-center mx-3">
+                                                    <nav aria-label="breadcrumb" class="d-block m-0 mt-3">
+                                                        <ol class="breadcrumb">
+                                                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                                            <li class="breadcrumb-item"><a href="#">Library</a></li>
+                                                            <li class="breadcrumb-item active" aria-current="page"><a
+                                                                    href=""> Data</a></li>
+                                                        </ol>
+                                                    </nav>
+
+                                                    <button type="button" class="btn-close d-block"
+                                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-lg-6 text-white p-3">
+                                                                <!-- Left side content goes here -->
+                                                                <img src="{{ url('assets/images/lomba/qiroah.png') }}"
+                                                                    alt="" class="gambar-modal w-100" />
+                                                            </div>
+                                                            <div class="col-lg-6 bg-pink text-dark p-3 isi-modal">
+                                                                <h1>MTQ</h1>
+                                                                <h2>Deskripsi :</h2>
+                                                                <p>Musabaqah Tilawatil Quran (MTQ) adalah jenis musabaqah
+                                                                    membaca Al-Quran dengan bacaan mujawwad, yaitu bacaan
+                                                                    Al-Quran yang mengandung nilai ilmu baca (tajwid), seni
+                                                                    (lagu dan suara), dan etika (adab) membaca sesuai dengan
+                                                                    pedoman yang berlaku.
+                                                                </p>
+                                                                <h2>Informasi :</h2>
+                                                                <div
+                                                                    class="d-flex justify-content-between pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="d-flex align-content-center">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="45" height="45"
+                                                                            viewBox="0 0 45 45" fill="none">
+                                                                            <path
+                                                                                d="M17.25 12H16.2003C14.7301 12 13.9945 12 13.433 12.2861C12.9391 12.5378 12.5378 12.9391 12.2861 13.433C12 13.9945 12 14.7301 12 16.2003V28.8003C12 30.2704 12 31.0051 12.2861 31.5666C12.5378 32.0605 12.9391 32.4625 13.433 32.7142C13.994 33 14.7287 33 16.1959 33H17.25M17.25 12H28.8003C30.2704 12 31.0044 12 31.566 12.2861C32.0599 12.5378 32.4625 12.9391 32.7142 13.433C33 13.994 33 14.7287 33 16.1959V28.8047C33 30.272 33 31.0056 32.7142 31.5666C32.4625 32.0605 32.0599 32.4625 31.566 32.7142C31.005 33 30.2713 33 28.8041 33H17.25M17.25 12V33M22.5 21.1875H27.75M22.5 17.25H27.75"
+                                                                                stroke="#790C61" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <circle cx="22.5" cy="22.5"
+                                                                                r="21.5" stroke="#780D60"
+                                                                                stroke-width="2" />
+                                                                        </svg>
+                                                                        <h2
+                                                                            class="m-0 mx-2 my-2 d-flex align-items-center">
+                                                                            Guidebook</h2>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <a style="text-decoration: none"
+                                                                            href="https://intip.in/kebutuhanpesertaglx8"
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Download</a>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div
+                                                                    class="d-flex justify-content-between align-content-center pb-4 mb-3 border-bottom border-3 border-opacity-25 border-dark">
+                                                                    <div class="">
+                                                                        <h2 class="m-0 my-1">HTM</h2>
+                                                                        <h1>60K</h1>
+                                                                        @auth
+                                                                            <h2>
+                                                                                Sudah mengikuti
+                                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                    width="20" height="20"
+                                                                                    viewBox="0 0 20 20" fill="none">
+                                                                                    <path
+                                                                                        d="M13 8L9 12L7 10M10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19Z"
+                                                                                        stroke="#7A0D62" stroke-width="2"
+                                                                                        stroke-linecap="round"
+                                                                                        stroke-linejoin="round" />
+                                                                                </svg>
+                                                                            </h2>
+                                                                        @endauth
+                                                                    </div>
+
+                                                                    <div class="my-auto">
+                                                                        @auth
+                                                                        @else
+                                                                            <a style="text-decoration: none"
+                                                                                href="https://intip.in/daftarMTQgalaxy"
+                                                                                class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
+                                                                                Lomba</a>
+                                                                        @endauth
+                                                                    </div>
+                                                                </div>
+
+                                                                @auth
+
+
+                                                                    <h2>Pengerjaan :</h2>
+                                                                    <p>
+
+                                                                    </p>
+
+                                                                    <style>
+                                                                        .countdown {
+                                                                            display: flex;
+                                                                            justify-content: space-around;
+                                                                            margin-top: 50px;
+                                                                        }
+
+                                                                        .countdown div {
+                                                                            text-align: center;
+                                                                        }
+                                                                    </style>
+
+                                                                    <div class="container mb-5">
+                                                                        {{-- <div id="countdown" class="countdown">
+                                                                            <div><span id="days">15</span><br />Hari</div>
+                                                                            <div><span id="hours">15</span><br />Jam</div>
+                                                                            <div><span id="minutes">15</span><br />Menit
+                                                                            </div>
+                                                                            <div><span id="seconds">15</span><br />Detik
+                                                                            </div>
+                                                                            <svg class="my-auto"
+                                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                                width="49" height="49"
+                                                                                viewBox="0 0 49 49" fill="none">
+                                                                                <path
+                                                                                    d="M24.4955 14.5V27H36.9929M47 8.42788L39.3411 2M9.6589 2L2 8.42788M24.4955 47C13.452 47 4.4995 38.0457 4.4995 27C4.4995 15.9543 13.452 7 24.4955 7C35.5389 7 44.4914 15.9543 44.4914 27C44.4914 38.0457 35.5389 47 24.4955 47Z"
+                                                                                    stroke="#790C61" stroke-width="4"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </div> --}}
+
+                                                                        <br />
+                                                                        {{-- <button
+                                                                            class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
+                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 
@@ -1720,7 +2314,8 @@
                         <div class="bg-faq1 content p-3">
                             <p>
                                 hasil karya kamu dapat kamu upload melalui link berikut
-                                ini <a href="intip.in/pengumpulanmultimediagalaxy">intip.in/pengumpulanmultimediagalaxy</a>
+                                ini <a
+                                    href="intip.in/pengumpulanmultimediagalaxy8">intip.in/pengumpulanmultimediagalaxy8</a>
                                 Pastikan kamu mengupload hasil karya pada waktu yang telah ditentukan dan pastikan juga
                                 mengisi
                                 formular pengumpulan dengan baik dan benar
@@ -1736,7 +2331,7 @@
                         <div class="bg-faq1 content p-3">
                             <p>
                                 kamu bisa konfirmasi bukti pembayaran transfer melalui nomor berikut ini <a
-                                    href="https://wa.me/+6282132352327">082132352327</a>
+                                    href="https://wa.me/+6287857327310">087857327310</a>
                             </p>
                         </div>
                     </div>
@@ -1750,8 +2345,14 @@
                             <p>
                                 kamu bisa mengikuti lomba galaxy akademik dnegan cara mengisi formular pada link <a
                                     href="{{ url('register') }}">Berikut</a>
-                                Dan lomba galaxy Non-Akademik dengan cara mengisi formulir pada link berikut
-                                <a href="https://intip.in/daftargalaxy/">https://intip.in/daftargalaxy/</a>
+                                Dan lomba galaxy Non-Akademik dengan cara mengisi formulir pada link berikut <br>
+                                MTQ : <a href="https://intip.in/daftarMTQgalaxy/">https://intip.in/daftarMTQgalaxy</a>
+                                <br>
+                                Banjari : <a
+                                    href="https://intip.in/daftarbanjarigalaxy">https://intip.in/daftarbanjarigalaxy</a>
+                                <br>
+                                Multimedia : <a
+                                    href="https://intip.in/daftarmultimedia">https://intip.in/daftarmultimedia</a>
                             </p>
                         </div>
                     </div>
@@ -1764,8 +2365,8 @@
                         <div class="bg-faq1 content p-3">
                             <p>
                                 kamu bisa menghubungi nomor WhatsApp dibawah ini <br>
-                                - <a href="wa.me/6282132352327">082132352327(admin galaxy)</a> <br>
-                                - <a href="wa.me/6281227177815">081227177815(admin galaxy 2)</a>
+                                - <a href="wa.me/6287857327310">087857327310(admin 1)</a> <br>
+                                - <a href="wa.me/6285737360535">085737360535(admin 2)</a>
                             </p>
                         </div>
                     </div>
@@ -1786,9 +2387,10 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-6">
-                        {{-- <div class="m-5">
-                            <img src="{{ url('assets/images/sponsor/utama.png') }}" alt="" class="ads-gambar" />
-                        </div> --}}
+                        <div class="m-5">
+                            <img src="{{ url('assets/images/sponsor/sponsor 1.jpg') }}" alt=""
+                                class="ads-gambar" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1798,46 +2400,29 @@
                 <div class="row">
                     <div class="col-lg-4 col-6">
                         <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner1.jpg') }}" alt=""
+                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 1.jpg') }}" alt=""
                                 class="ads-gambar" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-6">
                         <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner2.png') }}" alt=""
+                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 2.png') }}" alt=""
                                 class="ads-gambar" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-6">
                         <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner3.jpg') }}" alt=""
+                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 3.jpg') }}" alt=""
                                 class="ads-gambar" />
                         </div>
                     </div>
                     <div class="col-lg-4 col-6">
                         <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner4.png') }}" alt=""
+                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 4.png') }}" alt=""
                                 class="ads-gambar" />
                         </div>
                     </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner5.jpg') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner6.jpg') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/mediapartner7.jpg') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
