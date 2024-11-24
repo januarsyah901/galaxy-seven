@@ -55,7 +55,7 @@
                     <script>
                         var CurrentYear = new Date().getFullYear()
                         document.write(CurrentYear)
-                    </script>. Galaxy All rights reserved. Develop with sincerity by <a
+                    </script>. Galaxy All rights reserved. Developed with sincerity by <a
                         href="https://www.instagram.com/fatihfwz/">Fatih</a>, <a
                         href="https://www.instagram.com/tmhhgg80/">Januarsyah</a>,
                     <a href="https://www.instagram.com/nasauramecca/">Haqqan</a>
