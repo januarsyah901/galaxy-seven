@@ -11,6 +11,16 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4.1.2
 
+      - name: ⚙️ Use PHP 8.3
+        uses: shivammathur/setup-php@main
+        with:
+          php-version: "8.3"
+
+      - name: ⚙️ Use NodeJS 20
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: "20"
+
       - name: 📂 Sync files
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
