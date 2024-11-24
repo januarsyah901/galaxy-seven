@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: 🔨 Install Dependencies JS
+        run: npm install
+
       - name: 📂 Sync files
         env:
           FTP_SERVER: ${{ secrets.ftp_host }}
