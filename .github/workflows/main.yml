@@ -13,21 +13,23 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
-      # - name: 📂 Sync files
-      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      #   with:
-      #     server: ${{ secrets.ftp_host }}
-      #     username: ${{ secrets.ftp_username }}
-      #     password: ${{ secrets.ftp_password }}
-      #     server-dir: /galaxy/galaxy-seven/
-      #     passive: true
-
       - name: 📂 Sync files
-        uses: sebastianpopp/ftp-action@releases/v2
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{ secrets.ftp_host }}
-          user: ${{ secrets.ftp_username }}
+          server: ${{ secrets.ftp_host }}
+          username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          localDir: ./
-          remoteDir: /galaxy/galaxy-seven/
+          server-dir: /galaxy/galaxy-seven/
+          protocol: ftps
+          port: 21
+
+
+      # - name: 📂 Sync files
+      #   uses: sebastianpopp/ftp-action@releases/v2
+      #   with:
+      #     host: ${{ secrets.ftp_host }}
+      #     user: ${{ secrets.ftp_username }}
+      #     password: ${{ secrets.ftp_password }}
+      #     localDir: ./
+      #     remoteDir: /galaxy/galaxy-seven/
 
