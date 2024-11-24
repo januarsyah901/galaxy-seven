@@ -95,7 +95,7 @@ class registerController extends Controller
 
         // Return success message
         return redirect('/dashboard/admin')->with('success', 'data berhasil di import');
-        
+
         // $data = $request->file('file');
         // $namaFile = $data->getClientOriginalName();
         // $data->move('userData', $namaFile);
@@ -119,20 +119,40 @@ class registerController extends Controller
         foreach ($data as $key => $value) {
             if ($value[0] != null) {
                 User::where('nama', $value[0])->update([
+                    // 'nama' => $value[0],
+                    // 'username' => $value[1],
+                    // 'telp' => $value[2],
+                    // 'sekolah' => $value[3],
+                    // 'jk' => $value[4],
+                    // 'type' => $value[5],
+                    // 'image' => $value[6],
+                    // 'email' => $value[7],
+                    // 'nomor_peserta' => $value[8],
+                    // 'password_peserta' => $value[9],
+                    // 'is_admin' => $value[10],
+                    // 'status_pembayaran' => $value[11],
+                    // 'is_lolos' => $value[12],
+                    // 'kode' => $value[13],
+                    // 'password' => Hash::make($value[14]),
+                    // 'nisn' => $value[15],
+
+
                     'nama' => $value[0],
-                    'username' => $value[1],
-                    'telp' => $value[2],
-                    'sekolah' => $value[3],
-                    'jk' => $value[4],
-                    'type' => $value[5],
-                    'image' => $value[6],
-                    'email' => $value[7],
-                    'nomor_peserta' => $value[8],
-                    'password_peserta' => $value[9],
-                    'is_admin' => $value[10],
-                    'status_pembayaran' => $value[11],
-                    'is_lolos' => $value[12],
-                    'kode' => $value[13],
+                    // 'username' => $value[1],
+                    // 'telp' => $value[2],
+                    // 'sekolah' => $value[3],
+                    // 'jk' => $value[4],
+                    // 'type' => $value[5],
+                    // 'image' => $value[6],
+                    // 'email' => $value[1],
+                    // 'nomor_peserta' => $value[8],
+                    // 'password_peserta' => $value[9],
+                    // 'is_admin' => $value[10],
+                    // 'status_pembayaran' => $value[11],
+                    'is_lolos' => $value[1],
+                    // 'kode' => $value[13],
+                    // 'password' => $value[1],
+                    // 'password' => Hash::make($value[2]),    
                     // 'password' => Hash::make($value[14]),
                     // 'nisn' => $value[15],
                 ]);
@@ -153,6 +173,7 @@ class registerController extends Controller
         if (file_exists($path)) {
             unlink($path);
         }
+
         // $user->delete();
         User::destroy($user->pluck('id')->toArray());
         return redirect('/dashboard/admin')->with('success', 'Data has been deleted.');

@@ -54,6 +54,11 @@ Route::get('/contact', function () {
         "dt" => "contact"
     ]);
 });
+Route::get('/aboutus', function () {
+    return view('aboutus', [
+        "dt" => "aboutus"
+    ]);
+});
 
 Route::get('/menu/{type}', function ($type) {
     return view('menu', [

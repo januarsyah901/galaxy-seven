@@ -38,24 +38,25 @@
                                                             kode untuk ditambahkan saat pembayaran.<br>
                                                             Contoh kode yang kamu dapatkan adalah 021. Maka, untuk
                                                             mempermudah pelacakan data, uang pendaftaran yang harus kamu
-                                                            bayarkan menjadi Rp 45.021,- </li>
+                                                            bayarkan menjadi Rp 50.021,- </li>
                                                         <li style="margin-bottom:5px;">Lakukan pembayaran melalui transfer
-                                                            ke rekening BSi - 7207000161 atas nama Irvan Prakoso
+                                                            ke 7070000363 BSI A/N (MA EXCELLENT PACET LAIN LAIN)
                                                         <li style="margin-bottom:5px;">Setelah melakukan pembayaran, harap
-                                                            lakukan konfirmasi melalui contact person <a href="wa.me/+6289679301797">089679301797</a></li>
+                                                            lakukan konfirmasi melalui contact person <a
+                                                                href="https://wa.me/+6287857327310">087857327310</a></li>
                                                         <li style="margin-bottom:5px;">Setelah verifikasi pembayaran maka
                                                             akan di verifikasi oleh admin dibawah ini,silahkan tunggu
                                                             maksimal 3x24 jam, jika belum silahkan hubungi admin</li>
-                                                        
-                                                      
+
+
                                                     </ol>
                                             </div>
                                         </div>
                                     @elseif ($user->is_lolos == 'tidak')
                                         <div class="alert alert-danger" role="alert">
-                                             <div class="col-lg-12">
-                                            Mohon maaf, anda tidak lolos seleksi </br> Semangaat… masih ada Galaxy tahun
-                                            depan yang nunggu kamu. Jangan down, tetep up kemampuan kamu.
+                                            <div class="col-lg-12">
+                                                Mohon maaf, anda tidak lolos seleksi </br> Semangaat… masih ada Galaxy tahun
+                                                depan yang nunggu kamu. Jangan down, tetep up kemampuan kamu.
                                             </div>
                                         </div>
                                     @else
@@ -74,51 +75,64 @@
                                             <div class="col-lg-5 col-md-4 label ">Status pembayaran</div>
                                             @if ($user->status_pembayaran)
                                                 <div class="col-lg-7 col-md-8">Sudah melakukan pembayaran,
-                                                  silahkan masuk ke grub dibawah ini </br>
-                                                        
-                                                        @if ($user->type == 'mipa')
-                                                <a class="" href="https://chat.whatsapp.com/Cf750MAUZiwBdAjwxM7Nkn"
-                                                    role="button">https://chat.whatsapp.com/Cf750MAUZiwBdAjwxM7Nkn</a>
-                                                      @endif
-                                           @if ($user->type == 'pai')
-                                                <a class="" href="https://chat.whatsapp.com/DaIQNOC171X7VL06WDm3T1"
-                                                    role="button">https://chat.whatsapp.com/DaIQNOC171X7VL06WDm3T1</a>
-                                                      @endif
-                                            @if ($user->type == 'ips')
-                                                <a class="" href="https://chat.whatsapp.com/HYcg2XwqdgZGwLm1GiNZ6R"
-                                                    role="button">https://chat.whatsapp.com/HYcg2XwqdgZGwLm1GiNZ6R</a>
-                                                 @endif
-                                            @if ($user->type == 'inggris')
-                                                <a class="" href="https://chat.whatsapp.com/IvSLOPT3UdzBXtkFBr1XAn"
-                                                    role="button">https://chat.whatsapp.com/IvSLOPT3UdzBXtkFBr1XAn</a>
-                                            @endif
-                                        </div>
+                                                    silahkan masuk ke grub dibawah ini </br>
+
+                                                    @if ($user->type == 'ipa')
+                                                        <a class=""
+                                                            href="https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn"
+                                                            role="button">https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn</a>
+                                                    @endif
+                                                    @if ($user->type == 'mtk')
+                                                        <a class=""
+                                                            href="https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn"
+                                                            role="button">https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn</a>
+                                                    @endif
+                                                    @if ($user->type == 'pai')
+                                                        <a class=""
+                                                            href="https://chat.whatsapp.com/F3G8GjDPffKJFn6QscTqBX"
+                                                            role="button">https://chat.whatsapp.com/F3G8GjDPffKJFn6QscTqBX</a>
+                                                    @endif
+                                                    @if ($user->type == 'ips')
+                                                        <a class=""
+                                                            href="https://chat.whatsapp.com/EOAXJwXvIEhLWnJAJb8oSK"
+                                                            role="button">https://chat.whatsapp.com/EOAXJwXvIEhLWnJAJb8oSK</a>
+                                                    @endif
+                                                    @if ($user->type == 'inggris')
+                                                        <a class=""
+                                                            href="https://chat.whatsapp.com/H98O77PPdJ9GB5OmVTA1q0"
+                                                            role="button">https://chat.whatsapp.com/H98O77PPdJ9GB5OmVTA1q0</a>
+                                                    @endif
+                                                </div>
                                             @else
                                                 <div class="col-lg-7 col-md-8">belum melakukan pembayaran</div>
                                             @endif
-                                                
-                                    </div>
+
+                                        </div>
                                     @endif
 
                                     <h5 class="card-title">Grub Whatsapp</h5>
                                     <div class="row">
                                         <div class="col-lg-5 col-md-4 label ">Link</div>
                                         <div class="col-lg-7 col-md-8">
-                                            @if ($user->type == 'mipa')
-                                                <a class="" href="https://chat.whatsapp.com/Drbss8wVyOYGMHHSZPmMDX"
-                                                    role="button">https://chat.whatsapp.com/Drbss8wVyOYGMHHSZPmMDX</a>
-                                                      @endif
+                                            @if ($user->type == 'ipa')
+                                                <a class="" href="https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn"
+                                                    role="button">https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn</a>
+                                            @endif
+                                            @if ($user->type == 'mtk')
+                                                <a class="" href="https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn"
+                                                    role="button">https://chat.whatsapp.com/ICIJbqmDpYm8BGLoVpdqvn</a>
+                                            @endif
                                             @if ($user->type == 'pai')
-                                                <a class="" href="https://chat.whatsapp.com/GDloHzDr9d249i7aWF1eAJ"
-                                                    role="button">https://chat.whatsapp.com/GDloHzDr9d249i7aWF1eAJ</a>
-                                                      @endif
+                                                <a class="" href="https://chat.whatsapp.com/F3G8GjDPffKJFn6QscTqBX"
+                                                    role="button">https://chat.whatsapp.com/F3G8GjDPffKJFn6QscTqBX</a>
+                                            @endif
                                             @if ($user->type == 'ips')
-                                                <a class="" href="https://chat.whatsapp.com/EI7XB8hc3rk4DJWRkADlr2"
-                                                    role="button">https://chat.whatsapp.com/EI7XB8hc3rk4DJWRkADlr2</a>
-                                                 @endif
+                                                <a class="" href="https://chat.whatsapp.com/EOAXJwXvIEhLWnJAJb8oSK"
+                                                    role="button">https://chat.whatsapp.com/EOAXJwXvIEhLWnJAJb8oSK</a>
+                                            @endif
                                             @if ($user->type == 'inggris')
-                                                <a class="" href="https://chat.whatsapp.com/L4PfAg99MCz1iRtUWFCeCP"
-                                                    role="button">https://chat.whatsapp.com/L4PfAg99MCz1iRtUWFCeCP</a>
+                                                <a class="" href="https://chat.whatsapp.com/H98O77PPdJ9GB5OmVTA1q0"
+                                                    role="button">https://chat.whatsapp.com/H98O77PPdJ9GB5OmVTA1q0</a>
                                             @endif
                                         </div>
                                     </div>
@@ -229,7 +243,7 @@
 
 
                         </div>
-                        
+
                         <!-- News & Updates Traffic -->
                         <div class="col-xl-7">
                             <div class="card">
@@ -259,17 +273,8 @@
                                             <span class="timeline-icon">
                                                 <i class="bi bi-1-circle text-primary fa-sm fa-fw"></i>
                                             </span>
-                                            <h5 class="fw-bold">Pendaftaran Gelombang 1</h5>
-                                            <p class="text-muted mb-2 fw-bold">1 desember 2022 - 20 desember 2022</p>
-                                        </li>
-                                        <li class="timeline-item mb-5">
-
-                                            <span class="timeline-icon">
-                                                <i class="bi bi-2-circle text-primary fa-sm fa-fw"></i>
-                                            </span>
-                                            <h5 class="fw-bold">Pendaftaran Gelombang 2</h5>
-                                            <p class="text-muted mb-2 fw-bold">5 januari 2023 - 26 januari 2023</p>
-
+                                            <h5 class="fw-bold">Pendaftaran </h5>
+                                            <p class="text-muted mb-2 fw-bold">23 November 2023- 15 Januari 2025</p>
                                         </li>
 
                                         <li class="timeline-item mb-5">
@@ -278,7 +283,7 @@
                                                 <i class="bi bi-window-stack text-primary fa-sm fa-fw"></i>
                                             </span>
                                             <h5 class="fw-bold">Penyisihan</h5>
-                                            <p class="text-muted mb-2 fw-bold">29 januari 2023</p>
+                                            <p class="text-muted mb-2 fw-bold">19 Januari 2024 penyisihan</p>
                                             <p class="text-muted">Pelaksanaan penyisihan peserta akan dilakukan secara
                                                 daring.</p>
 
@@ -290,11 +295,11 @@
                                                 <i class="bi bi-people text-primary fa-sm fa-fw"></i>
                                             </span>
                                             <h5 class="fw-bold">Quarter Final</h5>
-                                            <p class="text-muted mb-2 fw-bold">22 februari 2023</p>
+                                            <p class="text-muted mb-2 fw-bold">2 Februari 2025</p>
                                             <p class="text-muted">
                                                 Pertandingan babak quarter final akan dilaksanakan secara daring. Peserta
                                                 yang berhasil lolos ke babak ini akan menerima pemberitahuan melalui situs
-                                                web Galaxy, dan diminta untuk melakukan pembayaran sebesar RP. 45000.
+                                                web Galaxy, dan diminta untuk melakukan pembayaran sebesar RP. 50.000.
                                             </p>
 
                                         </li>
@@ -304,27 +309,14 @@
                                                 <i class="bi bi-building text-primary fa-sm fa-fw"></i>
                                             </span>
                                             <h5 class="fw-bold">Semifinal & Final</h5>
-                                            <p class="text-muted mb-2 fw-bold">5 maret 2023</p>
+                                            <p class="text-muted mb-2 fw-bold">9 Februari 2025</p>
                                             <p class="text-muted">
                                                 Semifinal dan final akan dilakukan offline di MAU Amanatul Ummah. Jalan KH.
                                                 Abdul Chalim No.01, Kembang, Kembangbelor, Kec. Pacet, Kabupaten Mojokerto,
                                                 Jawa Timur 61374.
                                             </p>
                                         </li>
-                                        {{-- <li class="timeline-item mb-5">
 
-                                            <span class="timeline-icon">
-                                                <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
-                                            </span>
-                                            <h5 class="fw-bold">Quarter Final</h5>
-                                            <p class="text-muted mb-2 fw-bold">22 februari 2023</p>
-                                            <p class="text-muted">
-                                                Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
-                                                et urna sit amet massa dapibus tristique non finibus ligula. Nam
-                                                pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit
-                                                vulputate mattis.
-                                            </p>
-                                        </li> --}}
                                     </ul>
                                 </div><!-- End Bordered Tabs -->
                             </div>
