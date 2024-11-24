@@ -24,6 +24,9 @@ jobs:
       - name: 🔨 Install Dependencies JS
         run: npm install
 
+      - name: 🔨 Install FTP Deploy
+        run: npm install @samkirkland/ftp-deploy --only=dev
+
       - name: 📂 Sync files
         env:
           FTP_SERVER: ${{ secrets.ftp_host }}
