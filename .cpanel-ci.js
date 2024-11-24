@@ -8,7 +8,7 @@ async function deployToCPanel() {
         server: process.env.FTP_SERVER,
         username: process.env.FTP_USERNAME,
         password: process.env.FTP_PASSWORD,
-        "server-dir": "/galaxy-test/",
+        "server-dir": process.env.FTP_PATH,
         exclude: [...excludeDefaults, ".env", ".git/**", "node_modules/**", "vendor/**"],
     });
     console.log("🚀 Deploy done!");

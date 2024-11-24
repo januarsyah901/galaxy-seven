@@ -28,8 +28,10 @@ jobs:
         run: npm install @samkirkland/ftp-deploy --only=dev
 
       - name: 📂 Sync files
+        if: github.ref == 'refs/heads/development'
         env:
           FTP_SERVER: ${{ secrets.ftp_host }}
           FTP_USERNAME: ${{ secrets.ftp_username }}
           FTP_PASSWORD: ${{ secrets.ftp_password }}
+          FTP_PATH: /galaxy-test/
         run: npm run deploy
