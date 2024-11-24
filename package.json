@@ -5,6 +5,7 @@
         "build": "vite build",
         "deploy": "node .cpanel-ci.js"
     },
+    "type": "module",
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "axios": "^1.1.2",
