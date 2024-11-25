@@ -2,9 +2,9 @@ on:
   push:
     branches:
       - development
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website on push on development
 jobs:
-  web-deploy:
+  web-deploy-development:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
