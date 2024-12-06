@@ -218,7 +218,7 @@
                                                                                 value="{{ $user->username }}" required>
                                                                         </div>
                                                                         <div class="form-group">
-                                                                            <label for="nisn">Telp</label>
+                                                                            <label for="nisn">nisn</label>
                                                                             <input type="text" name="nisn"
                                                                                 id="nisn" class="form-control"
                                                                                 value="{{ $user->nisn }}">
@@ -672,9 +672,14 @@
                                             labelLine: {
                                                 show: false
                                             },
-                                            data: [{
-                                                    value: {{ $countMipa }},
-                                                    name: 'Mipa'
+                                            data: [
+                                                {
+                                                    value: {{ $countIpa }},
+                                                    name: 'Ipa'
+                                                },
+                                                {
+                                                    value: {{ $countMtk }},
+                                                    name: 'Mtk'
                                                 },
                                                 {
                                                     value: {{ $countPai }},
@@ -698,7 +703,7 @@
                                 });
                             </script>
 
-                            <h6>Total : {{ $countMipa + $countPai + $countIps + $countInggris }}</h6>
+                            <h6>Total : {{ $countIpa + $countMtk + $countPai + $countIps + $countInggris }}</h6>
 
                         </div>
                     </div><!-- End Website Traffic -->
