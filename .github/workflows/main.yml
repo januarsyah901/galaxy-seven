@@ -1,12 +1,18 @@
 on:
-  push:
+  pull_request:
     branches:
       - main
 
 
-# name: 🚀 Deploy website on push
-# jobs:
-#   web-deploy:
+name: 🚀 Deploy website on push on main
+jobs:
+   web-deploy-main:
+      name: 🎉 Deploy
+      runs-on: ubuntu-latest
+      steps:
+       - name: Debug Ref
+         run: echo "Triggered by ${{ github.ref }}"
+
 #     name: 🎉 Deploy
 #     runs-on: ubuntu-latest
 #     steps:

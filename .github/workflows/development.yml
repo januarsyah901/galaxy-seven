@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+      - development
+name: 🚀 Deploy website on push on development
+jobs:
+  web-deploy-development:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4.1.2
+
+      - name: ⚙️ Use PHP 8.3
+        uses: shivammathur/setup-php@main
+        with:
+          php-version: "8.3"
+
+      - name: ⚙️ Use NodeJS 20
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: "20"
+
+      - name: 🔨 Install Dependencies JS
+        run: npm install
+
+      - name: 🔨 Install FTP Deploy
+        run: npm install @samkirkland/ftp-deploy --only=dev
+
+      - name: 📂 Sync files
+        if: github.ref == 'refs/heads/development'
+        env:
+          FTP_SERVER: ${{ secrets.ftp_host }}
+          FTP_USERNAME: ${{ secrets.ftp_username }}
+          FTP_PASSWORD: ${{ secrets.ftp_password }}
+          FTP_PATH: /galaxy-test/
+        run: npm run deploy
