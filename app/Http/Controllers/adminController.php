@@ -26,13 +26,15 @@ class adminController extends Controller
 
 
         $countMipa = User::where('type', 'mipa')->count();
+        $countMtk = User::where('type', 'mtk')->count();
+        $countIpa = User::where('type', 'ipa')->count();
         $countIps = User::where('type', 'ips')->count();
         $countPai = User::where('type', 'pai')->count();
         $countInggris = User::where('type', 'inggris')->count();
 
 
         // return view('adminNew.admin', ['users' => $users]);
-        return view('adminNew.admin', ['countMipa' => $countMipa, 'countIps' => $countIps, 'countPai' => $countPai, 'countInggris' => $countInggris,], compact('users'));
+        return view('adminNew.admin', ['countMipa' => $countMipa,'countIpa' => $countIpa,'countMtk' => $countMtk, 'countIps' => $countIps, 'countPai' => $countPai, 'countInggris' => $countInggris,], compact('users'));
     }
 
     /**

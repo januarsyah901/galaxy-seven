@@ -12,7 +12,7 @@
                     <img src="{{ url('assets/images/img/logo glx.png') }}" alt="" class="tagline-img" />
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="tagline-line"></div>
-                        <h1 class="m-0 mx-3">Cyberspace the world's reflection</h1>
+                        <h1 class="m-0 mx-3">Adventure Time</h1>
                         <div class="tagline-line"></div>
                     </div>
 
@@ -2396,36 +2396,18 @@
             </div>
             <div class="sponsor text-center pt-4 mt-5">
                 <h2 class="mb-4">Media Partner</h2>
-
                 <div class="row">
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 1.jpg') }}" alt=""
-                                class="ads-gambar" />
+                    @for ($i = 1; $i <= 13; $i++)
+                        <div class="col-lg-4 col-6">
+                            <div class="m-5">
+                                <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER ' . $i . '.jpg') }}"
+                                    alt="" class="ads-gambar" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 2.png') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 3.jpg') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-6">
-                        <div class="m-5">
-                            <img src="{{ url('assets/images/mediapartner/MEDIA PARTNER 4.png') }}" alt=""
-                                class="ads-gambar" />
-                        </div>
-                    </div>
-
-
+                    @endfor
                 </div>
             </div>
+        </div>
         </div>
     </section>
 @endsection
