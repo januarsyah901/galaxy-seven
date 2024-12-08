@@ -33,5 +33,5 @@ jobs:
           FTP_SERVER: ${{ secrets.ftp_host }}
           FTP_USERNAME: ${{ secrets.ftp_username }}
           FTP_PASSWORD: ${{ secrets.ftp_password }}
-          FTP_PATH: /galaxy/galaxy-seven
+          FTP_PATH: /galaxy/galaxy-seven/
         run: npm run deploy
