@@ -3,48 +3,34 @@ on:
     branches:
       - main
 
-
-name: 🚀 Deploy website on push on main
 jobs:
-   web-deploy-main:
-      name: 🎉 Deploy
-      runs-on: ubuntu-latest
-      steps:
-       - name: Debug Ref
-         run: echo "Triggered by ${{ github.ref }}"
+  web-deploy-development:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4.1.2
 
-#     name: 🎉 Deploy
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: 🚚 Get latest code
-#         uses: actions/checkout@v3
+      - name: ⚙️ Use PHP 8.3
+        uses: shivammathur/setup-php@main
+        with:
+          php-version: "8.3"
 
-#       - name: 📂 Sync files
-#         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-#         with:
-#           server: ${{ secrets.ftp_host }}
-#           username: ${{ secrets.ftp_username }}
-#           password: ${{ secrets.ftp_password }}
-#           server-dir: /galaxy/galaxy-seven/
-#           protocol: ftps
-#           port: 21
-#           exclude: |
-#             **/.git*
-#             **/.git*/**
-#             **/node_modules/**
-#             .env
-#             **/vendor/**
-#             **/galaxy/**
+      - name: ⚙️ Use NodeJS 20
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version: "20"
 
+      - name: 🔨 Install Dependencies JS
+        run: npm install
 
+      - name: 🔨 Install FTP Deploy
+        run: npm install @samkirkland/ftp-deploy --only=dev
 
-
-      # - name: 📂 Sync files
-      #   uses: sebastianpopp/ftp-action@releases/v2
-      #   with:
-      #     host: ${{ secrets.ftp_host }}
-      #     user: ${{ secrets.ftp_username }}
-      #     password: ${{ secrets.ftp_password }}
-      #     localDir: ./
-      #     remoteDir: /galaxy/galaxy-seven/
-
+      - name: 📂 Sync files
+        env:
+          FTP_SERVER: ${{ secrets.ftp_host }}
+          FTP_USERNAME: ${{ secrets.ftp_username }}
+          FTP_PASSWORD: ${{ secrets.ftp_password }}
+          FTP_PATH: /galaxy/galaxy-seven/
+        run: npm run deploy
