@@ -178,13 +178,13 @@
                                             Pendaftaran non akademik
                                         </h5>
                                         <li>
-                                            23 November 2024 - 31 Desember 2024
+                                            23 November 2024 - 1 Februari 2025
                                         </li>
                                         <h5>
                                             Pengumpulan multimedia
                                         </h5>
                                         <li>
-                                            1 Januari – 12 Januari 2025
+                                            1 Januari – 2 Februari 2025
                                         </li>
                                         <h5>
                                             TM penyisihan awal
@@ -2082,7 +2082,7 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
+                                                                        <a href="https://intip.in/daftarmultimedia"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 

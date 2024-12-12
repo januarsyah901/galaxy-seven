@@ -38,7 +38,7 @@ class registerController extends Controller
         $validatedData = $request->validate([
             "nama" => "required|max:255",
             // "username" => "required|max:255|unique:users",
-            "telp" => "required|digits_between:11,12",
+            "telp" => "required|digits_between:11,13",
             "nisn" => "required|unique:users|min:10",
             "sekolah" => "required",
             "image" => "required|image|file|max:1024",

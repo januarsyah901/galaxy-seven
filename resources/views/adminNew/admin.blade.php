@@ -295,7 +295,7 @@
                                                                         <div class="form-group">
                                                                             <label for="type">Mapel</label>
                                                                             <br>
-                                                                            @foreach (['mipa', 'ips', 'pai', 'inggris'] as $type)
+                                                                            @foreach (['ipa','mtk', 'ips', 'pai', 'inggris'] as $type)
                                                                                 <input type="radio" name="type"
                                                                                     id="type"
                                                                                     value="{{ $type }}"
