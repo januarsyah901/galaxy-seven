@@ -174,7 +174,7 @@
                             <div class="form-radio mb-3">
                                 <p class="mb-0">pilih jenis kompetisi</p>
                                 <label>
-                                    <input type="radio" class="option-input radio" name="type" value="mipa"
+                                    <input type="radio" class="option-input radio" name="type" value="ipa"
                                         checked />
                                     Olimpiade IPA
                                 </label>
