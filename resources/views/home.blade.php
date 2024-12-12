@@ -2082,7 +2082,7 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/daftarmultimedia"
+                                                                        <a href="https://intip.in/daftarbanjarigalaxy"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 
@@ -2252,7 +2252,7 @@
                                                                         <br />
                                                                         {{-- <button
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</button> --}}
-                                                                        <a href="https://intip.in/pengumpulanmultimediagalaxy8/"
+                                                                        <a href="https://intip.in/daftarMTQgalaxy"
                                                                             class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Kumpulkan</a>
                                                                     </div>
 
