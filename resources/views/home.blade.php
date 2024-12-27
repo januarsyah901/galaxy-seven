@@ -524,6 +524,7 @@
                         </div>
                     </div>
                 </div>
+                {{-- Matematika --}}
                 <div class="col-lg-3 col-md-4 mt-3">
                     <div class="lomba-block">
                         <img class="mx-auto d-block py-3" src="{{ url('assets/images/lomba/matematika.png') }}"
@@ -1504,7 +1505,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
+                                                                                href="https://intip.in/daftarmultimedia"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
@@ -1678,7 +1679,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
+                                                                                href="https://intip.in/daftarmultimedia"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
@@ -1852,7 +1853,7 @@
                                                                         @auth
                                                                         @else
                                                                             <a style="text-decoration: none"
-                                                                                href="https://intip.in/pendaftaranmultimediaGALAXY7"
+                                                                                href="https://intip.in/daftarmultimedia"
                                                                                 class="btn-purple px-2 px-lg-3 py-lg-2 py-1 tombol-modal my-auto">Ikuti
                                                                                 Lomba</a>
                                                                         @endauth
